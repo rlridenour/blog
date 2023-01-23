@@ -1,0 +1,10 @@
+#+TITLE: Blog Test
+#+draft: true
+#+tags[]: 
+#+date: 
+#+mathjax:  
+
+This is a test of my reconfigured hugo publishing scripts.
+
+\[\Pr (A \vert B) = \Pr(A) \times \frac{\Pr(B \vert A){B}\]
+
