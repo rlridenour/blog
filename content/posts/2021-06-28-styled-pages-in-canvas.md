@@ -12,7 +12,7 @@ math: true
 url: ""
 ---
 
-My [method](https://randyridenour.net/posts/arguments-in-html/) of formatting philosophical arguments in HTML works fine when writing web pages on my own site, but not so well when I don't have access to the site's CSS, or so I thought. I tell students to format arguments in what is usually called "standard form" --- a list with numbered premises and a line separating the premises from the conclusion. So, it should look like this:
+My [method](https://randyridenour.net/posts/2019-01-08-arguments-html/) of formatting philosophical arguments in HTML works fine when writing web pages on my own site, but not so well when I don't have access to the site's CSS, or so I thought. I tell students to format arguments in what is usually called "standard form" --- a list with numbered premises and a line separating the premises from the conclusion. So, it should look like this:
 
 1. First premise
 2. Second premise
