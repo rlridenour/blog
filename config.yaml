@@ -33,19 +33,19 @@ params:
   # Default to 5
   maxCategoryToShow: 10
 
-  # Show your socail information with icon on index bio with `_index.md` content.
+  # Show your social information with icon on index bio with `_index.md` content.
   socialOptions:
     dev-to:
     email:
     facebook:
-    github:
+    github: https://github.com/rlridenour
     instagram:
     linkedin:
     medium:
     stack-overflow:
     steam:
     telegram:
-    twitter:
+    twitter: https://twitter.com/randyridenour
     twitch:
     whatsapp:
   
