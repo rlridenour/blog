@@ -1,0 +1,1 @@
+I am a professor of philosophy at [Oklahoma Baptist University](https://www.okbu.edu) and retired Army Reserve chaplain. This is my personal blog with thoughts on diverse topics such as philosophy, religion and technology.
