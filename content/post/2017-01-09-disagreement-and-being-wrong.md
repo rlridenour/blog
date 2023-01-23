@@ -9,7 +9,7 @@ url: "/2017/01/09/disagreement-and-being-wrong/"
 ---
 This internet meme has been making the rounds lately:
 
-<!-- ![Disagreement](/images/2017/disagreement.jpg) -->
+![Disagreement](images/2017/disagreement.jpg)
 
 The graphic shows two people on opposite ends of an ambiguous figure on the ground. One person points down and says "Six." The other points down, saying "Nine." The original caption is "Just because you are right, does not mean I am wrong." That caption is crossed out, and this rebuttal placed below:
 

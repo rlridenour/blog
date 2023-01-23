@@ -53,7 +53,7 @@ Once the circles have been defined, they can be drawn and labeled. I prefer to u
 
 This produces the following:
 
-<!-- ![Venn Diagram with Labels](/images/2016/venn-labels.svg) -->
+![Venn Diagram with Labels](images/2016/venn-labels.svg)
 
 ## Shading ##
 
@@ -169,7 +169,7 @@ Finally, to shade *P* without *S*:
 \draw (1,-2) node {7};
 ```
 
-<!-- ![Sections in a Venn Diagram](/images/2016/venn-sections.svg)  -->
+![Sections in a Venn Diagram](images/2016/venn-sections.svg)
 
 
 
@@ -210,14 +210,14 @@ Celarent is a classic first-figure argument that uses both a universal negation 
 
 This produces the following:
 
-<!-- ![Celarent](/images/2016/venn-celarent.svg)  -->
+![Celarent](images/2016/venn-celarent.svg)
 
 
 ### Disamis (IAI-3)
 
 Disamis is a good example of a universal affirmation with a particular affirmation.
 
-<!-- ![Disamis](/images/2016/venn-disamis.svg)  -->
+![Disamis](images/2016/venn-disamis.svg)
 
 It was made with this code:
 

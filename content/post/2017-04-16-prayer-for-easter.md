@@ -8,7 +8,7 @@ title: Prayer for Easter
 url: "/2017/04/16/prayer-for-easter/"
 
 ---
-<!-- ![Weeping Mary](/images/2017/weeping-mary.jpg) -->
+![Weeping Mary](images/2017/weeping-mary.jpg)
 
 <small>
 (Photograph: *Weeping Mary* by Martin Gommel)[^1]

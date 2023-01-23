@@ -9,4 +9,4 @@ url: "/2011/05/08/needs-the-chart-says-it-all/"
 ---
 The chart says it all.
 
-<!-- ![Needs](/images/2011/needs.png) -->
+![Needs](/images/2011/needs.png)

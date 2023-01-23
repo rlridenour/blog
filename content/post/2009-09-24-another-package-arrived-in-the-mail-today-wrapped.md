@@ -15,4 +15,4 @@ url: "/2009/09/24/another-package-arrived-in-the-mail-today-wrapped/"
 <p>I'm standing by my earlier claim: it's still not art.</p>
 <p>I hope that sale at the dollar store ends soon.</p>
 
-<!-- ![Another Package](/images/2009/another-package.jpg) -->
+![Another Package](images/2009/another-package.jpg)
