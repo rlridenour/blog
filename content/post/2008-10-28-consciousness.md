@@ -1,0 +1,9 @@
+---
+date: '2008-10-28T16:16:52Z'
+title: Consciousness
+url: "/2008/10/28/consciousness/"
+tags:
+- mind
+
+---
+<p>In Philosophy of Mind today, I claimed that the ability to respond to the environment meant that an organism was at least minimally conscious. Michael Novotny then asked if that entailed that certain mechanisms were conscious. For example, a trap door opens when a certain weight is place on it. It seems to be responding to the environment, so does that mean that it is conscious? If not, then what's wrong with my claim about the condition for minimal consciousness?</p>

@@ -1,0 +1,36 @@
+---
+comments: true
+date: '2015-01-13T16:49:29Z'
+tags:
+- prayer
+title: Prayer for Easter
+url: "/2015/01/13/prayer-for-easter/"
+
+---
+We hear Jesus say,  
+  
+"Love your enemies,  
+Turn the other cheek,  
+Sell all you have,  
+Give to the poor,  
+Don't worry,  
+Forgive,  
+Be not afraid."  
+  
+  
+We reply,  
+  
+"Surely, he didn't mean what he said.  
+We can't,  
+It's not natural,  
+It's impossible."  
+  
+Then Easter comes,  
+And we are left speechless.  
+  
+May your beauty draw us,  
+Your power strengthen us,  
+And your love compel us  
+To live fully as citizens of your kingdom.  
+  
+Amen  

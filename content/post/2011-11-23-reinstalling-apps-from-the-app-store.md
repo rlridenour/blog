@@ -1,0 +1,15 @@
+---
+date: '2011-11-23T06:28:49Z'
+title: Reinstalling Apps from the App Store
+url: "/2011/11/23/reinstalling-apps-from-the-app-store/"
+tags:
+- mac
+
+---
+<p>I was having some trouble with BBEdit on one of my machines, so I decided to delete and reinstall the application. That’s not very difficult in ordinary circumstances, but since I bought from the App Store, it should have been even easier. There should be no need to enter any license information, just a click and install.</p>
+<p>First, I deleted the app. I deleted BBEdit from the applications folder. Somehow, it was still in Launchpad. So, I deleted it from Launchpad. Surely that would be enough.</p>
+<p>Unfortunately, after I deleted the application, the App Store still thought that it was installed and wouldn’t let me download another copy. With the aid of a great little application called <a href="http://apps.tempel.org/FindAnyFile/">Find Any File</a>, I removed every trace of BBEdit from the machine, including all preference files and application support files.</p>
+<p>The App Store was still convinced that it was installed.</p>
+<p>Then, I began searching the internet, which revealed some frustrated App Store customers, who were mostly frustrated with their Xcode experience. The search didn’t help.</p>
+<p>For some reason, I decided to go back to Launchpad and saw the BBEdit icon there. I clicked it and BBEdit started right up, though without my usual color scheme since I had deleted the application support folder. So, where was the file? On a whim, I disconnected my backup drive, opened the App Store, and BBEdit was finally gone with the option to install. I Pressed the install button, and BBEdit was automatically installed.</p>
+<p>Lesson: Launchpad sees apps on external drives, so disconnect any external drives to install a deleted app to your main drive. Then, reinstalling <em>should</em> be the quick and easy process that it’s supposed to be.</p>

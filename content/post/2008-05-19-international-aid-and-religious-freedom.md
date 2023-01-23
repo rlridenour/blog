@@ -1,0 +1,12 @@
+---
+date: '2008-05-19T23:10:06Z'
+title: International Aid and Religious Freedom
+url: "/2008/05/19/international-aid-and-religious-freedom/"
+tags:
+- political
+- religion
+
+---
+<p>I am a Baptist who is committed to religious freedom, and I think that the separation of church and state is critical for maintaining religious freedom. I also believe in the value of the classical liberal tradition, in which everyone should have the freedom to choose their own values and act to achieve what they think is good, provided that it does not interfere with another's ability to do the same. So, I am generally suspicious of legislation that interferes with the liberties of other people when my religious beliefs provide the sole reason for favoring the proposed law.</p>
+<p>I am, however, advocating that the country increase the amount of money that we spend on international aid, specifically aid that is designed to reduce poverty. Yesterday, I claimed that this is consistent with the teachings of Jesus, but even aside from religious motivations, such aid is in our national interest. One could liken it to the rebuilding of Europe and Japan following World War II. Post-war reconstruction was not only the morally right thing to do, it also had immense national security benefits.</p>
+<p>This same point was made by National Security Advisor Stephen Hadley in an <a title="Remarks by National Security Advisor Stephen Hadley at Carnegie Endowment for International Peace" href="http://www.whitehouse.gov/news/releases/2008/02/20080204-5.html">address to the Carnegie Endowment for International Peace</a> in February. Let's not simply rest on our past achievements, though.</p>

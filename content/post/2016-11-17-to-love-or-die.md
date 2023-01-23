@@ -1,0 +1,36 @@
+---
+comments: true
+date: '2016-11-17T15:28:51Z'
+tags:
+- poetry
+title: To Love or Die
+url: "/2016/11/17/to-love-or-die/"
+
+---
+- All I have is a voice
+- To undo the folded lie,
+- The romantic lie in the brain
+- Of the sensual man-in-the-street 
+- And the lie of Authority
+- Whose buildings grope the sky: 
+- There is no such thing as the State 
+- And no one exists alone;
+- Hunger allows no choice
+- To the citizen or the police;
+- We must love one another or die.
+{:.poetry}
+
+- Defenseless under the night
+- Our world in stupor lies;
+- Yet, dotted everywhere,
+- Ironic points of light
+- Flash out wherever the Just
+- Exchange their messages:
+- May I, composed like them
+- Of Eros and of dust,
+- Beleaguered by the same
+- Negation and despair,
+- Show an affirming flame.
+{:.poetry}
+
+<cite>From "September 1, 1939" by W.H. Auden</cite>

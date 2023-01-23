@@ -1,0 +1,15 @@
+---
+date: '2008-06-08T12:49:39Z'
+title: World Food Summit
+url: "/2008/06/08/world-food-summit/"
+tags:
+- ethics
+- political
+
+---
+<p>The summit on soaring food prices ended last week. For years, I have read that there is plenty of food available to feed everyone on the planet, but the problem was distributing that food. We know from recent events in Myanmar that uncooperative regimes can make aid distribution impossible. Now, though, it seems that there is a genuine food shortage, not simply a problem of distribution. What has changed?</p>
+<p><!--more--><br />
+ My guess is that we will all try to find the one cause of the crisis, and each group will propose a different cause depending on their political leanings. We should keep in mind that complex situations generally have complex causes, and oversimplification often exacerbates the problem. Here are a few things that need to be considered.</p>
+<p>First, serious research needs to be done on the effects of climate change on agriculture and fisheries. Some of the best evidence that climate change is occurring is the change in elevations and temperate zones in which plant species are growing. One of our guides in Costa Rica even mentioned that crops are growing in higher elevations now, which means that they are not growing in some of the lower elevations.</p>
+<p>Second, we need to take a serious look at where our aid dollars are going. On June 3, <a title="The world only needs 30 billion dollars a year to eradicate the scourge of hunger" href="http://www.fao.org/newsroom/en/news/2008/1000853/index.html">Jacques Diouf</a>, Director-General of the Food and Agriculture Organization of the United Nations, appealed to the developed world for 30 billion dollars a year for agriculture aid. Incidentally, he estimated that 100 billion dollars of food is wasted every year in a single country, although he failed to mention which country it was. Aid for agriculture fell from 8 billion dollars in 1984 to 3.4 billion in 2004.</p>
+<p>There are other things that are likely to be playing a role in the increased food shortage such as the ever-increasing percentage of agricultural output that is used for biofuels and decreasing agricultural efficiency in many developing countries. One mistake we cannot afford to make is to fail to consider how this problem is related to other problems that the world faces, as this <a href="http://www.nytimes.com/2008/06/09/opinion/09mon1.html?th&amp;emc=th" title="Editorial - Politics and Hunger - Editorial - NYTimes.com">NY Times editorial</a> points out. Agriculture and climate are obviously related, but so are food costs and energy costs, as are the dollars available for agricultural aid and dollars spent to combat terrorism. On the other hand, it also seems likely that hungry people that have no hope are more likely to be potential recruits for terrorist organizations. These problems are complex enough now, and they are not likely to get easier to solve with time. It's time to get started.</p>

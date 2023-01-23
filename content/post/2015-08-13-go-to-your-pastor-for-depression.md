@@ -1,0 +1,15 @@
+---
+comments: true
+date: '2015-08-13T09:39:00Z'
+tags:
+- critical-thinking
+- religion
+title: Go to Your Pastor for Depression?
+url: "/2015/08/13/go-to-your-pastor-for-depression/"
+
+---
+Glennon Doyle Melton at [momastery.com](http://momastery.com/blog/) posted an article with the provocative title, "[If You Wouldn’t Go to Your Minister for a Mammogram, Don’t Go for Depression](http://momastery.com/blog/2015/08/12/ministers-depression/?utm_content=bufferff8d8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)." In it, she makes the important point that there are those in Christian communities that advocate treatment of depression through prayer alone, refusing to see it as a medical condition, yet those same people would not treat cancer simply with prayer. In this, I wholeheartedly agree. Ministers harm those whom they counsel when they do not urge them to seek medical help for mental illness.
+
+At the same time, though, I think the title of the post does a disservice to those who might read it. First, recognize that the analogy is particularly weak. Depression is a condition, a mammogram is a diagnostic tool. A better analogy would be this, "If you wouldn't go to your minister because you have cancer, don't go because you have depression." So, the question, then, should be "Would you go to your minister if you had cancer?" I certainly hope that the answer is yes; cancer may not be a spiritual condition, but surely having cancer affects one's spirit, and the patient should get as much support as she can. In the same way, having depression affects one's spirit, and support from a caring pastoral counselor should be valued.
+
+Is pastoral counseling good treatment for the depression itself? No, but then again, neither is a mammogram good treatment for cancer.

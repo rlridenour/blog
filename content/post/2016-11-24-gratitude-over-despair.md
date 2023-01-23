@@ -1,0 +1,34 @@
+---
+comments: true
+date: '2016-11-24T14:08:04Z'
+tags:
+- prayer
+- religion
+title: Gratitude Over Despair
+url: "/2016/11/24/gratitude-over-despair/"
+
+---
+This prayer is from 2014, but somehow seems fitting again this year:
+
+Gracious God,
+
+In the events of this year,  
+we see how fragile our lives truly are.
+
+Daily, we are faced with a choice  
+to be people who live in cynicism and despair,  
+or people who live in gratitude and thanksgiving.
+
+On this day, we choose gratitude over despair,  
+and lift our hearts in thanksgiving to you,  
+the one who is the source of all good things.
+
+Thank you  
+for family and friends,  
+for life and for love,  
+and for the beauty that we would see  
+if we would just open our eyes to you.
+
+*Amen*
+
+

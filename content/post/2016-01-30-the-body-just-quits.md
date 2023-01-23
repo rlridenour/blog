@@ -1,0 +1,10 @@
+---
+comments: true
+date: '2016-01-30T19:25:38Z'
+tags:
+- misc
+title: The Body Just Quits
+url: "/2016/01/30/the-body-just-quits/"
+
+---
+We left Accra, Ghana at 2300 last Saturday night. After thirty hours of traveling, we arrived in Oklahoma City. Monday night, I had to go visit my father at his hospital. Tuesday and Wednesday, I taught a Bible study on forgiveness at First Baptist Church, Sparks, OK. Thursday night, I had my three hour political philosophy class. Finally, on Friday, I came down with a stomach bug, for which I should be thankful — I went to bed and slept for eighteen hours.

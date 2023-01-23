@@ -1,0 +1,30 @@
+---
+comments: true
+date: '2015-01-13T09:15:32Z'
+tags:
+- prayer
+title: For Those Who Help Us Grow
+url: "/2015/01/13/for-those-who-help-us-grow/"
+
+---
+Sometimes it seems  
+like the world  
+is filled  
+with a darkness  
+that threatens  
+to shatter our lives  
+and destroy all hope,
+
+but as our eyes  
+are opened in worship  
+we see that this darkness  
+is but a shadow that flees  
+as the light of Christ  
+comes into the world.
+
+May your light shine upon us,  
+may it shine in us,  
+may it shine through us.
+
+*Amen*
+
