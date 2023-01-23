@@ -1,8 +1,8 @@
 #+TITLE: Blog Test
-#+draft: true
-#+tags[]: 
-#+date: 
-#+mathjax:  
+#+draft: false
+#+tags[]: emacs hugo
+#+date: 2023-01-23T07:04:13
+#+mathjax: true
 
 This is a test of my reconfigured hugo publishing scripts.
 
