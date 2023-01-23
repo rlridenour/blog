@@ -1,0 +1,11 @@
+#+TITLE: Argument Test
+#+draft: false
+#+tags[]: 
+#+date: 
+#+mathjax:  
+
+#+begin_arg
+1. Premise 1
+2. Premise 2
+3. Conclusion
+#+end_arg
