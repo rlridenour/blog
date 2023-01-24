@@ -68,6 +68,12 @@ url = "/about/"
 [[menu.footer]]
 name = "RSS"
 url = "/index.xml"
+[[menu.footer]]
+name = "Home"
+url = "/index.html"
+[[menu.footer]]
+name = "Tags"
+url = "/tags/"
 
 [markup]
 [markup.highlight]
