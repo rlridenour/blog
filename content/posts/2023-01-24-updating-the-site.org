@@ -1,12 +1,12 @@
 #+TITLE: Updating the Site
-#+draft: true
+#+draft: false
 #+tags[]: hugo emacs org
-#+date: 2023-01-24T06:41:27
+#+date: 2023-01-24T08:50:04
 #+mathjax:  
 
-I've had trouble getting verified as an educator with GitLab. After getting some notification from them that the "ultimate" status was being downgraded on my site project, I decided to move it to GitHub, where I've had it before. I had moved it to GitLab, because GitLab would do the Hugo build for me after I pushed the updated content to them. In the past, GitHub would build a Jekyll site, but any others needed to be built locally. So, I was pleasantly surprised to see that I could set up a Hugo build on GitHub now. Unfortunately, I couldn't get it to work reliably. What did work exceptionally well is to connect the repository to [[https://www.netlify.com][Netlify]], and let them handle serving the site. I followed the [[https://gohugo.io/hosting-and-deployment/hosting-on-netlify/][instructions]] in the Hugo documentation, and everything went very smoothly. Netlify automatically detected that the repository was a Hugo site. Their instructions for pointing the domain's name servers to Netlify were clear and simple to follow. It's important to note that the site's theme /must/ be installed as a git submodule. It won't work as a simple git clone. The instructions for most Hugo themes that I see specify installing as a submodule, so you likely already have that done.
+I've had trouble getting verified as an educator with GitLab. After getting some notification from them that the "ultimate" status was being downgraded on my site project (not that it really would have mattered for this, since it's a public repository), I decided to move it to GitHub, where I've had it before. I had moved it to GitLab because GitLab would do the Hugo build for me after I pushed the updated content to them. In the past, GitHub would build a Jekyll site, but any others needed to be built locally. So, I was pleasantly surprised to see that I could set up a Hugo build on GitHub now. Unfortunately, I couldn't get it to work reliably. What did work exceptionally well is to connect the repository to [[https://www.netlify.com][Netlify]], and let them handle serving the site. I followed the [[https://gohugo.io/hosting-and-deployment/hosting-on-netlify/][instructions]] in the Hugo documentation, and everything went very smoothly. Netlify automatically detected that the repository was a Hugo site. Their instructions for pointing the domain's name servers to Netlify were clear and simple to follow. It's important to note that the site's theme /must/ be installed as a git submodule. It won't work as a simple git clone. The instructions for most Hugo themes that I see specify installing as a submodule, so you likely already have that done.
 
-This seemed to be a good opportunity to update the site's theme. I had started with another theme and rewrote it into my own, but lately I've been happier letting other people do as much of the configuration work as possible. [fn:1] I picked the [[https://github.com/WingLim/hugo-tania][Hugo Tania]] theme, since it has nice built-in search and tag support.
+This seemed to be a good opportunity to update the site's theme. I had started with another theme and rewrote it into my own, but lately I've been happier letting other people do as much of the configuration work as possible, which explains my move back to [[https://github.com/doomemacs/doomemacs][Doom Emacs]]. I picked the [[https://github.com/WingLim/hugo-tania][Hugo Tania]] theme, since it has nice built-in search and tag support.
 
 
 * Hugo and Org Mode
@@ -92,7 +92,7 @@ This sets "draft" to "true", updates the date stamp, and saves the file:
 #+end_src
 
 
-This commits the changes and pushes them to GitHub:
+This commits the changes and pushes them to GitHub, using the current date and time as the commit message:
 
 #+begin_src elisp
 (defmacro with-dir (DIR &rest FORMS)
@@ -123,8 +123,4 @@ Finally, set some keybindings to make it all easy.
 (global-set-key (kbd "C-c h d") 'hugo-deploy)
 #+end_src
 
-
-
-* Footnotes
-
-[fn:1] Which explains my move back to [[https://github.com/doomemacs/doomemacs][Doom Emacs]].
+I have a few more things to do, like create "About" and tag pages, and adjust the footnote styling. Unfortunately, I need to get ready for the new semester which begins on Thursday.
