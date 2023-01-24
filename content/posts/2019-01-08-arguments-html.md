@@ -2,7 +2,7 @@
 title: 'Arguments in HTML'
 date: "2021-06-24T08:50:55"
 draft: false
-tags: ['HTML', 'Markdown', 'Philosophy']
+tags: ['html', 'markdown', 'philosophy']
 ---
 
 I have another post in a [WordPress blog](https://rlridenour.wordpress.com/2019/01/08/arguments-html/) about how to do this in WordPress. I'll replicate it here for Hugo. This post is not about arguments that occur on the internet, but about how to display philosophical/logical arguments in standard form on the internet. To put an argument in standard form:

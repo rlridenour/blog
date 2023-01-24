@@ -6,7 +6,7 @@ tags:
 - politics
 title: Race, Police Shooting, and Probability
 url: "/2016/10/01/black-lives-matter-and-conditional-probabilities/"
-
+mathjax: true
 ---
 I just read a Facebook comment by someone who was apparently downplaying the Black Lives Matter movement by pointing out that the police shoot more white Americans than black Americans. 
 

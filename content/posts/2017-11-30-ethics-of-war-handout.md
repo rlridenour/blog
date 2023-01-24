@@ -2,7 +2,7 @@
 title: 'Ethics of War Handout'
 date: Thu, 30 Nov 2017 16:29:11 +0000
 draft: false
-tags: ['Ethics', 'Political', 'Uncategorized']
+tags: ['ethics', 'political']
 ---
 
 These are some concepts and terms used in a presentation on the ethics of war, given at Oklahoma Baptist University on December 1, 2017.

@@ -3,7 +3,7 @@ comments: true
 date: '2015-05-20T16:21:15Z'
 tags:
 - jekyll
-- iOS
+- ios
 title: Blogging with Jekyll and Working Copy
 url: "/2015/05/20/working-copy/"
 

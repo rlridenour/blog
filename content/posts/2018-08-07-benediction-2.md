@@ -2,7 +2,7 @@
 title: 'Benediction'
 date: Tue, 07 Aug 2018 14:59:11 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['prayer']
 ---
 
 In _The Brothers Karamazov_, Dostoevsky uses the slanting rays of the sun to represent the love of God that can flow through each of us, transforming lives as we interact with each other with genuine love. 

@@ -2,7 +2,7 @@
 title: 'On the Use of Political Pejoratives'
 date: Wed, 29 Jul 2020 20:39:13 +0000
 draft: false
-tags: ['Critical Thinking', 'Ethics', 'Politics', 'Uncategorized']
+tags: ['critical-thinking', 'ethics', 'politics']
 ---
 
 Reading [this tweet](https://twitter.com/thedocfile/status/1288116751083790339?s=20) by Luke Dockery prompted some thoughts on uses of the terms 'liberal' and 'conservative'.

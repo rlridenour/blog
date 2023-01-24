@@ -2,7 +2,7 @@
 title: 'Insurance Update'
 date: Sun, 09 Jun 2019 13:06:31 +0000
 draft: false
-tags: ['Cancer', 'Health Care']
+tags: ['cancer', 'health-care']
 ---
 
 I feel a bit better today after a close reading of both the Aetna and the AFLAC policies. It seems that Aetna just wants to know if there are any other policies that could provide coverage. Why they want to know that now, but didn’t earlier, I have no idea.

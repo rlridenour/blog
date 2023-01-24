@@ -2,7 +2,7 @@
 title: 'Truth Tables in LaTeX'
 date: Sat, 10 Feb 2018 19:35:49 +0000
 draft: false
-tags: ['LaTeX', 'Logic', 'Teaching', 'Uncategorized']
+tags: ['latex', 'logic', 'teaching']
 ---
 
 Typesetting truth tables has never been easy. LaTeX is the gold standard for displaying logic and mathematics, but tables are awkward to edit at best. Tables are much simpler in Microsoft Word, but displaying formulas is a horrible experience.[1](#fn-1012-1) Here is my current workflow. 

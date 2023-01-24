@@ -2,7 +2,7 @@
 title: 'Beamer Presentations with Org Mode'
 date: Mon, 01 Jun 2020 19:18:56 +0000
 draft: false
-tags: ['Emacs', 'Org Mode']
+tags: ['emacs', 'org']
 ---
 
 

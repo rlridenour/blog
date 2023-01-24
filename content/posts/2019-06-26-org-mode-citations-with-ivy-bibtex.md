@@ -2,7 +2,7 @@
 title: 'Org-Mode Citations with Ivy-Bibtex'
 date: Wed, 26 Jun 2019 13:35:59 +0000
 draft: false
-tags: ['Emacs', 'Org Mode']
+tags: ['emacs', 'org']
 ---
 
 John Kitchin's [org-ref](https://github.com/jkitchin/org-ref) is a great way to handle citations in Emacs' org-mode. It uses [helm-bibtex](https://github.com/tmalsburg/helm-bibtex) to search for and select citatitions to insert, but does not support the corresponding ivy version. Org-ref does have an ivy search function, but it is not nearly as good as ivy-bibtex. Ivy-bibtex will insert citations into org documents, but its default format is not the same as it is in org-ref.

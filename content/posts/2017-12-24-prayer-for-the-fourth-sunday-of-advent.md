@@ -2,7 +2,7 @@
 title: 'Prayer for the Fourth Sunday of Advent'
 date: Sun, 24 Dec 2017 16:38:15 +0000
 draft: false
-tags: ['Prayer', 'Religion', 'Uncategorized']
+tags: ['prayer', 'religion']
 ---
 
 A prayer for Mitch Randall’s last Sunday as pastor of NorthHaven Church, before he takes his new position as executive director of the Baptist Center for Ethics.

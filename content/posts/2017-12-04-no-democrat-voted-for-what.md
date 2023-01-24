@@ -2,7 +2,7 @@
 title: 'No Democrat Voted for What?'
 date: Mon, 04 Dec 2017 20:33:44 +0000
 draft: false
-tags: ['Political', 'Uncategorized']
+tags: ['Political']
 ---
 
 I just saw an internet meme that said, “Not a single Democrat voted to lower your taxes — let that sink in for a moment.”

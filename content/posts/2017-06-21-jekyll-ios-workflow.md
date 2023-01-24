@@ -2,7 +2,7 @@
 comments: true
 date: '2017-06-21T11:05:34Z'
 tags:
-- iOS
+- ios
 - jekyll
 title: Publishing to Jekyll with Editorial on iOS
 url: "/2017/06/21/jekyll-ios-workflow/"

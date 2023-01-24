@@ -2,7 +2,7 @@
 title: 'Some Thoughts on Mass Shootings'
 date: Tue, 06 Aug 2019 16:22:57 +0000
 draft: false
-tags: ['Critical Thinking', 'Ethics', 'Political', 'Social Justice']
+tags: ['critical-thinking', 'ethics', 'political', 'social-justice']
 ---
 
 The Second Amendment

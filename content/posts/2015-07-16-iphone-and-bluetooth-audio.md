@@ -2,7 +2,7 @@
 comments: true
 date: '2015-07-16T12:25:37Z'
 tags:
-- iOS
+- ios
 title: iPhone and Bluetooth Audio
 url: "/2015/07/16/iphone-and-bluetooth-audio/"
 

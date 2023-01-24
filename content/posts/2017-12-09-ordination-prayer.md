@@ -2,10 +2,10 @@
 title: 'Ordination Prayer'
 date: Sat, 09 Dec 2017 16:52:01 +0000
 draft: false
-tags: ['Prayer', 'Religion', 'Uncategorized']
+tags: ['prayer', 'religion']
 ---
 
-_This is a prayer for the ordination service of Kim Divelbiss at NorthHaven Church on December 9, 2017_
+_This is a prayer for an ordination service at NorthHaven Church on December 9, 2017_
 
 God of grace and hope,
 

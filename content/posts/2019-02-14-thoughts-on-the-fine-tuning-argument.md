@@ -2,7 +2,8 @@
 title: 'Thoughts on The Fine-Tuning Argument'
 date: Thu, 14 Feb 2019 22:05:57 +0000
 draft: false
-tags: ['Philosophy', 'Religion']
+tags: ['philosophy', 'religion']
+mathjax: true
 ---
 
 Yesterday, Paul Gould from Southwestern Baptist Theological Seminary presented a very interesting talk titled, “Cultural Apologetics: Renewing the Christian Voice, Conscience, and Imagination in a Disenchanted World.” In it, he argued for two important claims:
