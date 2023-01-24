@@ -15,7 +15,7 @@ titleLogo = ""
 
 # Enable float footnotes.
 # Default to true
-enableFootnotes = true
+enableFootnotes = false
 
 siteName = "Randy Ridenour"
 siteDesc = "Randy Ridenour's Blog"
