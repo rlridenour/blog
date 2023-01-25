@@ -21,3 +21,15 @@ ol.bibliography li {
   margin: 0px;
 }
 
+.footnote-definition {
+  display: block;
+}
+
+.footnote-body {
+  display: inline-block;
+}
+
+/* .footnote-definition sup { */
+/*   font-size: inherit; */
+/*   vertical-align: inherit; */
+/* } */
