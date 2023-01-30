@@ -9,3 +9,11 @@ text-decoration: underline;
 .arg li {
 margin: 0px;
 }
+
+.footnote-definition {
+  display: block;
+}
+
+.footnote-body {
+  display: inline-block;
+}
