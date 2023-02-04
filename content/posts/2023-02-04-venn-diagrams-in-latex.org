@@ -1,7 +1,7 @@
 #+TITLE: Venn Diagrams in LaTeX
 #+draft: false
 #+tags[]: latex logic
-#+date: 2023-02-04T12:54:25
+#+date: 2023-02-04T13:00:30
 #+mathjax: 
 
 I wrote a [[https://randyridenour.net/2016/04/11/venn-diagrams-with-latex-and-tikz/][2017 post]] describing how I code Venn diagrams in LaTeX with TikZ. Venn diagrams in categorical logic tend to be different than their standard uses in mathematics. There are a few LateX packages for Venn diagrams, but, for some reason, I didn't think they could be used to produce the diagrams I needed for my critical thinking course. I should have looked at them a bit more carefully, it turns out that making the diagrams using the [[https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/venndiagram/venndiagram.pdf][venndiagram]]  package is much easier than my method.
@@ -12,12 +12,12 @@ Venndiagram, like my method, uses TikZ to make the diagram. The advantage, thoug
 #+begin_src latex
 \begin{tikzpicture}[thick,scale=1, every node/.style={transform shape}]
   \begin{scope}
-    \begin{scope}[even odd rule]% Shade S without P
+    \begin{scope}[even odd rule]
       \clip \pred (-1.5,-1.5) rectangle (1.5,1.5);
       \fill[gray] \sub;
     \end{scope}
-    \draw (-2,-0) node {$S$};
-    \draw (4,0) node {$P$};
+    \draw (-2,-0) node {$A$};
+    \draw (4,0) node {$B$};
     \draw \sub;
     \draw \pred;
   \end{scope}
@@ -98,7 +98,7 @@ I use this for a 3-circle diagram:
   % \node[above left = 1.4cm and .25cm of labelC, rotate=45] {X};
   % }
 \end{venndiagram3sets}
-
+#+end_src
 
 Both have enough detail that I can remember what to change to make a particular diagram. I've added some extra comments to explain what everything does. Include the ~scale=1~ only so that I can remember what to do when I want to change the size of the diagram. The only tricky part is when I have to place an x on the border of a particular circle, that requires a little bit of TikZ fiddling, hence the commented lines at the end of the snippet.
 
@@ -106,4 +106,4 @@ Both have enough detail that I can remember what to change to make a particular 
 
 
 
-#+end_src
+
