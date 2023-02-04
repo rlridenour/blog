@@ -51,8 +51,11 @@ whatsapp = ""
 
 # Comments settigns
 [params.comments]
-enabled = false
-provider = ""
+enabled = true
+provider = "cusdis"
+
+[params.comments.cusdis]
+ id = "1c638948-4d7e-40a8-8122-594aae9b4852"
 
 [menu]
 [[menu.header]]
