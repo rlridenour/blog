@@ -1,7 +1,7 @@
 #+TITLE: Venn Diagrams in LaTeX
 #+draft: false
 #+tags[]: latex logic
-#+date: 2023-02-04T12:31:11
+#+date: 2023-02-04T12:54:25
 #+mathjax: 
 
 I wrote a [[https://randyridenour.net/2016/04/11/venn-diagrams-with-latex-and-tikz/][2017 post]] describing how I code Venn diagrams in LaTeX with TikZ. Venn diagrams in categorical logic tend to be different than their standard uses in mathematics. There are a few LateX packages for Venn diagrams, but, for some reason, I didn't think they could be used to produce the diagrams I needed for my critical thinking course. I should have looked at them a bit more carefully, it turns out that making the diagrams using the [[https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/venndiagram/venndiagram.pdf][venndiagram]]  package is much easier than my method.
@@ -26,12 +26,12 @@ Venndiagram, like my method, uses TikZ to make the diagram. The advantage, thoug
 
 Here is the same diagram with the venndiagram package.
 
-#+begin_export latex
+#+begin_src latex
 \begin{venndiagram2sets}
   [tikzoptions={scale=1,thick}, showframe=false]
   \fillANotB
 \end{venndiagram2sets}
-#+end_export
+#+end_src
 
 
 #+attr_html: alt: A-sentence diagram: A-sentence :width 400
