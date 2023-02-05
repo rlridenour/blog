@@ -1,12 +1,12 @@
 #+TITLE: Venn Diagrams in LaTeX
 #+draft: false
 #+tags[]: latex logic
-#+date: 2023-02-04T13:00:30
+#+date: 2023-02-04T18:46:33
 #+mathjax: 
 
-I wrote a [[https://randyridenour.net/2016/04/11/venn-diagrams-with-latex-and-tikz/][2017 post]] describing how I code Venn diagrams in LaTeX with TikZ. Venn diagrams in categorical logic tend to be different than their standard uses in mathematics. There are a few LateX packages for Venn diagrams, but, for some reason, I didn't think they could be used to produce the diagrams I needed for my critical thinking course. I should have looked at them a bit more carefully, it turns out that making the diagrams using the [[https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/venndiagram/venndiagram.pdf][venndiagram]]  package is much easier than my method.
+I wrote a [[https://randyridenour.net/2016/04/11/venn-diagrams-with-latex-and-tikz/][2017 post]] describing how I code Venn diagrams in LaTeX with TikZ. Venn diagrams in categorical logic tend to be different from their standard uses in mathematics. There are a few LaTeX packages for Venn diagrams, but, for some reason, I didn't think they could be used to produce the diagrams I needed for my critical thinking course. I should have looked at them a bit more carefully, it turns out that making the diagrams using the [[https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/venndiagram/venndiagram.pdf][venndiagram]]  package is much easier than my method.
 
-Venndiagram, like my method, uses TikZ to make the diagram. The advantage, though, is that we don't have to dig into the details of TikZ for everything, that is already done for us. For, example here is the diagram for an A-sentence using my previous method.
+Venndiagram, like my method, uses TikZ to make the diagram. The advantage, though, is that we don't have to dig into the details of TikZ for everything, that is already done for us. For example, here is the code for the diagram for an A-sentence using my previous method.
 
 
 #+begin_src latex
@@ -24,7 +24,7 @@ Venndiagram, like my method, uses TikZ to make the diagram. The advantage, thoug
 \end{tikzpicture}
 #+end_src
 
-Here is the same diagram with the venndiagram package.
+Here is the code for the  same diagram with the venndiagram package.
 
 #+begin_src latex
 \begin{venndiagram2sets}
@@ -33,12 +33,13 @@ Here is the same diagram with the venndiagram package.
 \end{venndiagram2sets}
 #+end_src
 
+It produces this:
 
 #+attr_html: alt: A-sentence diagram: A-sentence :width 400
 #+caption: Venn diagram of an A-sentence in categorical logic.
 [[/images/2023/a-sentence.png]]
 
-Here's a diagram for Disamis (IAI-3):
+Here's the code for Disamis (IAI-3):
 
 #+begin_src latex
 \begin{venndiagram3sets}
@@ -51,6 +52,8 @@ Here's a diagram for Disamis (IAI-3):
   \fillCNotA
 \end{venndiagram3sets}
 #+end_src
+
+The resulting diagram looks like this:
 
 #+attr_html: alt: Disamis argument: Disamis :width 400
 #+caption: Venn diagram of Disamis in categorical logic.
@@ -100,7 +103,7 @@ I use this for a 3-circle diagram:
 \end{venndiagram3sets}
 #+end_src
 
-Both have enough detail that I can remember what to change to make a particular diagram. I've added some extra comments to explain what everything does. Include the ~scale=1~ only so that I can remember what to do when I want to change the size of the diagram. The only tricky part is when I have to place an x on the border of a particular circle, that requires a little bit of TikZ fiddling, hence the commented lines at the end of the snippet.
+Both have enough detail that I can remember what to change to make a particular diagram. I've added some extra comments to explain what everything does. I Include the ~scale=1~ only so that I can remember what to do when I want to change the size of the diagram. The only tricky part is when I have to place an x on the border of a particular circle, that requires a little bit of TikZ fiddling, hence the commented lines at the end of the snippet.
 
 
 
