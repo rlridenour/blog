@@ -4,9 +4,9 @@
 #+date: 2023-02-04T18:46:33
 #+mathjax: 
 
-I wrote a [[https://randyridenour.net/2016/04/11/venn-diagrams-with-latex-and-tikz/][2017 post]] describing how I code Venn diagrams in LaTeX with TikZ. Venn diagrams in categorical logic tend to be different from their standard uses in mathematics. There are a few LaTeX packages for Venn diagrams, but, for some reason, I didn't think they could be used to produce the diagrams I needed for my critical thinking course. I should have looked at them a bit more carefully, it turns out that making the diagrams using the [[https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/venndiagram/venndiagram.pdf][venndiagram]]  package is much easier than my method.
+I wrote a [[https://randyridenour.net/2016/04/11/venn-diagrams-with-latex-and-tikz/][2017 post]] describing how I code Venn diagrams in LaTeX with TikZ. Venn diagrams in categorical logic tend to be different from their standard uses in mathematics. There are a few LaTeX packages for Venn diagrams, but, for some reason, I didn't think they could be used to produce the diagrams I needed for my critical thinking course. I should have looked at them a bit more carefully, it turns out that making the diagrams using the =venndiagram= [[https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/venndiagram/venndiagram.pdf][package]] is much easier than my method.
 
-Venndiagram, like my method, uses TikZ to make the diagram. The advantage, though, is that we don't have to dig into the details of TikZ for everything, that is already done for us. For example, here is the code for the diagram for an A-sentence using my previous method.
+=Venndiagram=, like my method, uses TikZ to make the diagram. The advantage, though, is that we don't have to dig into the details of TikZ for everything, that is already done for us. For example, here is the code for the diagram for an A-sentence using my previous method.
 
 
 #+begin_src latex
@@ -24,7 +24,7 @@ Venndiagram, like my method, uses TikZ to make the diagram. The advantage, thoug
 \end{tikzpicture}
 #+end_src
 
-Here is the code for the  same diagram with the venndiagram package.
+Here is the code for the  same diagram with the =venndiagram= package.
 
 #+begin_src latex
 \begin{venndiagram2sets}
