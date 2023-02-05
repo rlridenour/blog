@@ -1,7 +1,7 @@
 #+TITLE: Venn Diagrams in LaTeX
 #+draft: false
 #+tags[]: latex logic
-#+date: 2023-02-04T18:46:33
+#+date: 2023-02-04T19:58:18
 #+mathjax: 
 
 I wrote a [[https://randyridenour.net/2016/04/11/venn-diagrams-with-latex-and-tikz/][2017 post]] describing how I code Venn diagrams in LaTeX with TikZ. Venn diagrams in categorical logic tend to be different from their standard uses in mathematics. There are a few LaTeX packages for Venn diagrams, but, for some reason, I didn't think they could be used to produce the diagrams I needed for my critical thinking course. I should have looked at them a bit more carefully, it turns out that making the diagrams using the =venndiagram= [[https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/venndiagram/venndiagram.pdf][package]] is much easier than my method.
@@ -35,7 +35,7 @@ Here is the code for the  same diagram with the =venndiagram= package.
 
 It produces this:
 
-#+attr_html: alt: A-sentence diagram: A-sentence :width 400
+#+attr_html: alt: A-sentence diagram: title: A-sentence :width 400
 #+caption: Venn diagram of an A-sentence in categorical logic.
 [[/images/2023/a-sentence.png]]
 
@@ -55,8 +55,10 @@ Here's the code for Disamis (IAI-3):
 
 The resulting diagram looks like this:
 
-#+attr_html: alt: Disamis argument: Disamis :width 400
+#+attr_html: alt: Disamis argument
+#+attr_html: title: Disamis
 #+caption: Venn diagram of Disamis in categorical logic.
+#+attr_html: :width 450px
 [[/images/2023/disamis.png]]
 
 
