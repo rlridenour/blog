@@ -2,7 +2,7 @@
 #+draft: false
 #+tags[]: emacs osx 
 #+date: 2023-02-06T13:22:17
-#+lastmod: 2023-02-06T13:23:03
+#+lastmod: 2023-02-06T13:27:39
 #+mathjax: 
 
 For those of us who live in Emacs, it's always a bad feeling when Emacs won't start, which happened to me today after upgrading my office Mac. I ran =doom doctor= which ran through a few checks and stopped with 
@@ -13,7 +13,13 @@ There was an unexpected runtime error
     Details: ((lambda (arg106 &optional arg107 arg108) (let (...) (funcall f arg106 arg107 arg108))) "Compiling /Users/rlridenour/.emacs.d/.local/cache/eln/28.2-75f7b60d/subr--trampoline-72657175697265_require_0.eln...\nxcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun\nlibgccjit.so
 #+end_src
 
-followed by a bunch of incomprehensible (to me) nonsense. I always forget that upgrading the OS usually necessitates upgrading the Command Line Developer Tools, so 
+followed by a bunch of incomprehensible (to me) nonsense. The important part being
+
+#+begin_src shell
+invalid active developer path (/Library/Developer/CommandLineTools)
+#+end_src
+
+I always forget that upgrading the OS usually necessitates upgrading the Command Line Developer Tools, so 
 
 #+begin_src shell
 xcode-select --install

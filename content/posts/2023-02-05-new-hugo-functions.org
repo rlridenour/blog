@@ -14,7 +14,7 @@ I found some some new functions for automating Hugo in Emacs, that I was able to
   "Select tags from the hugo org files in the current dir.
 
 Note that it only extracts tags from lines like the below:
-#+tags[]: Emacs Org-mode"
+#+tags[]: emacs org"
   (interactive)
   ;; Move to end of tag line.
   (save-excursion
