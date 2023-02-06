@@ -2,56 +2,56 @@
 #+draft: false
 #+tags[]: hugo emacs 
 #+date: 2023-02-05T19:27:51
-#+lastmod: 2023-02-05T19:52:47
+#+lastmod: 2023-02-05T19:53:35
 #+mathjax: 
 
 Here are some new functions for automating Hugo in Emacs, using some code from others that I modified slightly to fit my own needs.
 
 This is from [[https://whatacold.io/blog/2022-10-10-emacs-hugo-blogging/][Ken Huang]]. With it, you can select a tag from a list of tags used on the site, then insert it into the right place in the front-matter.
 
-#+begin_src elisp
-(defun hugo-select-tags ()
-  "Select tags from the hugo org files in the current dir.
+# #+begin_src elisp
+# (defun hugo-select-tags ()
+#   "Select tags from the hugo org files in the current dir.
 
-Note that it only extracts tags from lines like the below:
-,#+tags[]: Emacs Org-mode"
-  (interactive)
-  ;; Move to end of tag line.
-  (save-excursion
-    (goto-char 1)
-    (re-search-forward "^#\\+tags")
-    (end-of-line)
+# Note that it only extracts tags from lines like the below:
+# ,#+tags[]: Emacs Org-mode"
+#   (interactive)
+#   ;; Move to end of tag line.
+#   (save-excursion
+#     (goto-char 1)
+#     (re-search-forward "^#\\+tags")
+#     (end-of-line)
 
-    (let ((files (directory-files-recursively default-directory "\\.org$")))
-      (let ((source (with-temp-buffer
-                      (while files
-                        (when (file-exists-p (car files))
-                          (insert-file-contents (car files)))
-                        (pop files))
-                      (buffer-string))))
-        (save-match-data
-          (let ((pos 0)
-                matches)
-            (while (string-match "^#\\+[Tt]ags\\[\\]: \\(.+?\\)$" source pos)
-              (push (match-string 1 source) matches)
-              (setq pos (match-end 0)))
-            (insert
-             (completing-read
-              "Insert a tag: "
-              (sort
-               (delete-dups
-                (delete "" (split-string
-                            (replace-regexp-in-string "[\"\']" " "
-                                                      (replace-regexp-in-string
-                                                       "[,()]" ""
-                                                       (format "%s" matches)))
-                            " ")))
-               (lambda (a b)
-                 (string< (downcase a) (downcase b))))))))))
-    (insert " ")
-    )
-  )
-#+end_src
+#     (let ((files (directory-files-recursively default-directory "\\.org$")))
+#       (let ((source (with-temp-buffer
+#                       (while files
+#                         (when (file-exists-p (car files))
+#                           (insert-file-contents (car files)))
+#                         (pop files))
+#                       (buffer-string))))
+#         (save-match-data
+#           (let ((pos 0)
+#                 matches)
+#             (while (string-match "^#\\+[Tt]ags\\[\\]: \\(.+?\\)$" source pos)
+#               (push (match-string 1 source) matches)
+#               (setq pos (match-end 0)))
+#             (insert
+#              (completing-read
+#               "Insert a tag: "
+#               (sort
+#                (delete-dups
+#                 (delete "" (split-string
+#                             (replace-regexp-in-string "[\"\']" " "
+#                                                       (replace-regexp-in-string
+#                                                        "[,()]" ""
+#                                                        (format "%s" matches)))
+#                             " ")))
+#                (lambda (a b)
+#                  (string< (downcase a) (downcase b))))))))))
+#     (insert " ")
+#     )
+#   )
+# #+end_src
 
 # From [[https://lucidmanager.org/productivity/create-websites-with-org-mode-and-hugo/][Peter Prevos]], this is for inserting links to other pages in the site. Use ~C-c C-l~ to bring up a list of link types, select "hugo", then pick the file name of the page you want to link.
 
