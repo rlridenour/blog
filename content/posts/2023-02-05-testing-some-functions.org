@@ -2,8 +2,8 @@
 #+draft: false
 #+tags[]: hugo 
 #+date: 2023-02-05T18:13:59
-#+lastmod: 2023-02-05T18:15:15
+#+lastmod: 2023-02-05T18:26:47
 #+mathjax: 
 
-I'm testing some a couple of new functions. One is to add a tag to a post by selecting from a list of tags used on the site, like [[{{< ref */2023-02-04-venn-diagrams-in-latex.org >}}][this]]. Another is for inserting links to other pages on the site using ~org-insert-link~. The last updates the last modified date when a post is published.
+I'm testing some a couple of new functions. One is to add a tag to a post by selecting from a list of tags used on the site, like [[{{< ref 2023-02-04-venn-diagrams-in-latex.org >}}][this]]. Another is for inserting links to other pages on the site using ~org-insert-link~. The last updates the last modified date when a post is published.
 
