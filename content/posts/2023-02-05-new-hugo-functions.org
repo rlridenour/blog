@@ -2,7 +2,7 @@
 #+draft: false
 #+tags[]: hugo emacs 
 #+date: 2023-02-05T19:27:51
-#+lastmod: 2023-02-05T19:43:07
+#+lastmod: 2023-02-05T19:44:40
 #+mathjax: 
 
 Here are some new functions for automating Hugo in Emacs, using some code from others that I modified slightly to fit my own needs.
@@ -53,7 +53,7 @@ Note that it only extracts tags from lines like the below:
   )
 #+end_src
 
-From [[https://lucidmanager.org/productivity/create-websites-with-org-mode-and-hugo/][Peter Prevos]], this is for inserting links to other pages in the site. Use ~C-c C-l~ to bring up a list of link types, select ~hugo:~, then pick the file name of the page you want to link.
+From [[https://lucidmanager.org/productivity/create-websites-with-org-mode-and-hugo/][Peter Prevos]], this is for inserting links to other pages in the site. Use ~C-c C-l~ to bring up a list of link types, select "hugo", then pick the file name of the page you want to link.
 
 #+begin_src elisp
 ;; Follow Hugo links
