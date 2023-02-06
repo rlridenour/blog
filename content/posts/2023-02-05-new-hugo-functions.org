@@ -2,14 +2,14 @@
 #+draft: false
 #+tags[]: hugo emacs 
 #+date: 2023-02-05T19:27:51
-#+lastmod: 2023-02-05T19:56:17
+#+lastmod: 2023-02-05T19:57:12
 #+mathjax: 
 
 Here are some new functions for automating Hugo in Emacs, using some code from others that I modified slightly to fit my own needs.
 
 This is from [[https://whatacold.io/blog/2022-10-10-emacs-hugo-blogging/][Ken Huang]]. With it, you can select a tag from a list of tags used on the site, then insert it into the right place in the front-matter.
 
-#+begin_src elisp
+#+begin_src emacs-lisp
 (defun hugo-select-tags ()
   "Select tags from the hugo org files in the current dir.
 
