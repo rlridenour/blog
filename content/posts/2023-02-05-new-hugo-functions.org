@@ -2,7 +2,7 @@
 #+draft: false
 #+tags[]: hugo emacs 
 #+date: 2023-02-05T19:27:51
-#+lastmod: 2023-02-06T06:02:00
+#+lastmod: 2023-02-06T06:44:55
 #+mathjax: 
 
 I found some some new functions for automating Hugo in Emacs, that I was able to modify slightly to fit my own needs.
@@ -54,6 +54,27 @@ Note that it only extracts tags from lines like the below:
 #+end_src
 
 
-Look at this post from [[https://lucidmanager.org/productivity/create-websites-with-org-mode-and-hugo/][Peter Prevos]], for inserting links to other pages in the site. With it, you're able to just  ~C-c C-l~ to bring up a list of link types, select "hugo", then pick the file name of the page you want to link. I'd post the function here, but I'm having trouble displaying the Hugo shorcode.
+Look at this post from [[https://lucidmanager.org/productivity/create-websites-with-org-mode-and-hugo/][Peter Prevos]], for inserting links to other pages in the site. With it, you're able to just  ~C-c C-l~ to bring up a list of link types, select "hugo", then pick the file name of the page you want to link. This is the code:
+
+
+#+begin_src emacs-lisp
+;; Follow Hugo links
+  (defun org-hugo-follow (link)
+    "Follow Hugo link shortcodes"
+    (org-link-open-as-file
+     (string-trim "{{</* ref test.org */>}}" "{{</* ref " "*/>}}")))
+
+  ;; New link type for Org-Hugo internal links
+  (org-link-set-parameters
+   "hugo"
+   :complete (lambda ()
+               (concat "{{</* ref "
+                       (file-name-nondirectory
+                        (read-file-name "File: "))
+                       " */>}}"))
+   :follow #'org-hugo-follow)
+#+end_src
+
+
 
 They both have some other useful things that might also be helpful. I'm grateful to others who solve problems they have and post the code online. I know just enough Emacs-lisp to figure out what is going on, and modify something to my own particular use-case, but not enough to be able to start from scratch.
