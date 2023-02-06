@@ -2,7 +2,7 @@
 #+draft: false
 #+tags[]: hugo emacs 
 #+date: 2023-02-05T19:27:51
-#+lastmod: 2023-02-05T20:02:31
+#+lastmod: 2023-02-05T20:04:05
 #+mathjax: 
 
 Here are some new functions for automating Hugo in Emacs, using some code from others that I modified slightly to fit my own needs.
@@ -66,7 +66,7 @@ From [[https://lucidmanager.org/productivity/create-websites-with-org-mode-and-h
   (org-link-set-parameters
    "hugo"
    :complete (lambda ()
-               (concat "{{< ref "
+
                        (file-name-nondirectory
                         (read-file-name "File: "))
                        " >}}"))
