@@ -2,7 +2,7 @@
 #+draft: false
 #+tags[]: hugo emacs 
 #+date: 2023-02-05T19:27:51
-#+lastmod: 2023-02-05T20:04:05
+#+lastmod: 2023-02-05T20:05:14
 #+mathjax: 
 
 Here are some new functions for automating Hugo in Emacs, using some code from others that I modified slightly to fit my own needs.
@@ -66,14 +66,12 @@ From [[https://lucidmanager.org/productivity/create-websites-with-org-mode-and-h
   (org-link-set-parameters
    "hugo"
    :complete (lambda ()
-
+               (concat "{{< ref "
                        (file-name-nondirectory
                         (read-file-name "File: "))
                        " >}}"))
    :follow #'org-hugo-follow)
 #+end_src
 
-#+RESULTS:
-| :complete | (lambda nil (concat {{< ref  (file-name-nondirectory (read-file-name File: ))  >}})) | :follow | org-hugo-follow |
 
 I'm grateful to others who solve problems they have and post the code online. I know just enough Emacs-lisp to figure out what is going on, and modify something to my own particular use-case, but not enough to be able to start from scratch.
