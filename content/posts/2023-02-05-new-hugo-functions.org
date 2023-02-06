@@ -2,7 +2,7 @@
 #+draft: false
 #+tags[]: hugo emacs 
 #+date: 2023-02-05T19:27:51
-#+lastmod: 2023-02-05T19:44:40
+#+lastmod: 2023-02-05T19:52:47
 #+mathjax: 
 
 Here are some new functions for automating Hugo in Emacs, using some code from others that I modified slightly to fit my own needs.
@@ -53,24 +53,24 @@ Note that it only extracts tags from lines like the below:
   )
 #+end_src
 
-From [[https://lucidmanager.org/productivity/create-websites-with-org-mode-and-hugo/][Peter Prevos]], this is for inserting links to other pages in the site. Use ~C-c C-l~ to bring up a list of link types, select "hugo", then pick the file name of the page you want to link.
+# From [[https://lucidmanager.org/productivity/create-websites-with-org-mode-and-hugo/][Peter Prevos]], this is for inserting links to other pages in the site. Use ~C-c C-l~ to bring up a list of link types, select "hugo", then pick the file name of the page you want to link.
 
-#+begin_src elisp
-;; Follow Hugo links
-  (defun org-hugo-follow (link)
-    "Follow Hugo link shortcodes"
-    (org-link-open-as-file
-     (string-trim "{{< ref test.org >}}" "{{< ref " ">}}")))
+# #+begin_src elisp
+# ;; Follow Hugo links
+#   (defun org-hugo-follow (link)
+#     "Follow Hugo link shortcodes"
+#     (org-link-open-as-file
+#      (string-trim "{{< ref test.org >}}" "{{< ref " ">}}")))
 
-  ;; New link type for Org-Hugo internal links
-  (org-link-set-parameters
-   "hugo"
-   :complete (lambda ()
-               (concat "{{< ref "
-                       (file-name-nondirectory
-                        (read-file-name "File: "))
-                       " >}}"))
-   :follow #'org-hugo-follow)
-#+end_src
+#   ;; New link type for Org-Hugo internal links
+#   (org-link-set-parameters
+#    "hugo"
+#    :complete (lambda ()
+#                (concat "{{< ref "
+#                        (file-name-nondirectory
+#                         (read-file-name "File: "))
+#                        " >}}"))
+#    :follow #'org-hugo-follow)
+# #+end_src
 
-I'm grateful to others who solve problems they have and post the code online. I know just enough Emacs-lisp to figure out what is going on, and modify something to my own particular use-case, but not enough to be able to start from scratch.
+# I'm grateful to others who solve problems they have and post the code online. I know just enough Emacs-lisp to figure out what is going on, and modify something to my own particular use-case, but not enough to be able to start from scratch.
