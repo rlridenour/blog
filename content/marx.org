@@ -1,0 +1,6 @@
+#+title: Marx Handout
+#+description: Handout for lecture on Marx
+#+layout: page
+
+* Marx
+
