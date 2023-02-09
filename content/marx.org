@@ -168,9 +168,9 @@
 
 ** Predicted consequences
 
-1. Automation = falling profit
-2. Falling profit \(\rightarrow\) failure of capitalism
-3. Labor intensive industries have higher rates of profit. (False)
+- Automation = falling profit
+- Falling profit \(\rightarrow\) failure of capitalism
+- Labor intensive industries have higher rates of profit. (False)
 
 
 
@@ -187,13 +187,13 @@
 
 ** Objections to Macro-theory
 
-1. Failure of communist states
-   1. Weak objection: They didn't have the period of capitalist growth Marx thought necessary.
-2. No revolution in capitalist nations
-   1. Marx didn't foresee the extent of government economic intervention
-3. Must profit rates fall?
-   1. Empirical question
-4. Technology /could/ increase profit.
+- Failure of communist states
+   - Weak objection: They didn't have the period of capitalist growth Marx thought necessary.
+- No revolution in capitalist nations
+   - Marx didn't foresee the extent of government economic intervention
+- Must profit rates fall?
+   - Empirical question
+- Technology /could/ increase profit.
 
 
 
