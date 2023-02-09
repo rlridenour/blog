@@ -50,11 +50,11 @@
 
 ** Stages of history
 
-| Oppressor   | Oppressed   |
-|-------------+-------------|
-| Citizens    | Slaves      |
-| Aristocracy | Serfs       |
-| Bourgeoisie | Proletariat |
+|          | Oppressor   | Oppressed   |
+|----------+-------------+-------------|
+| Ancient  | Citizens    | Slaves      |
+| Medieval | Aristocracy | Serfs       |
+| Modern   | Bourgeoisie | Proletariat |
 
 
 
