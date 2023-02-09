@@ -82,10 +82,10 @@
 
 ** Alienation and labor
 
-1. From products of labor
-2. From productive activity
-3. From other individuals
-4. From our own human nature
+- From products of labor
+- From productive activity
+- From other individuals
+- From our own human nature
 
 * Economics
 
