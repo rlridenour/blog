@@ -2,5 +2,222 @@
 #+description: Handout for lecture on Marx
 #+layout: page
 
-* Marx
+
+
+* Life and Works
+
+** Life
+
+- Born 1818
+- Studied law and philosophy
+- Became journalist
+- Lived in exile
+- Died 1883
+
+
+** Important Works
+
+- /Manuscripts/ (1844)
+- /The Communist Manifesto/ (1848)
+- /A Contribution to a Critique of Political Economy/ (1859)
+- "Critique of the Gotha Programme" (1875)
+- /Capital/ (1867)
+
+
+
+
+
+* Historical Materialism
+
+** Thesis
+
+- System of production determines form of society.
+- Distribution of surplus determines class structure.
+- Conflict occurs when there is a division between direct producers and those who benefit.
+
+
+
+
+
+** Needs
+
+
+- Basic needs \(\rightarrow\) complex needs
+- Complex needs \(\rightarrow\) division of labor
+- Division of labor \(\rightarrow\) division of classes
+
+
+
+** Stages of history
+
+| Oppressor   | Oppressed   |
+|-------------+-------------|
+| Citizens    | Slaves      |
+| Aristocracy | Serfs       |
+| Bourgeoisie | Proletariat |
+
+
+
+
+** Revolution
+
+- Economic revolution when economic forces cannot meet demand
+- Results in new oppressor class
+
+
+
+
+
+
+  
+* Alienation 
+
+** Types    
+
+- Alienated from products of our labor
+- Alienated from our communal essence.
+
+
+
+
+** Alienation and labor
+
+1. From products of labor
+2. From productive activity
+3. From other individuals
+4. From our own human nature
+
+* Economics
+
+** Commodities
+
+- Objects produced for market exchange.
+- Requires
+  - Market
+  - Division of labor
+
+
+
+** Value
+
+- Use value: usefulness
+- Exchange value: how many A's is a B worth?
+
+** Labor theory of value
+
+- What makes x A's = y B's?
+- Marx: the labor required to produce them.
+
+
+** Puzzle
+
+
+
+- I have 4 oranges, $3 each.
+- You have 12 apples, $1 each.
+- We trade 1 orange for 3 apples.
+- Both start with $12 of value.
+- End with $12 of value.
+- How do we make profit?
+
+
+** Answer
+
+- Capitalism
+  - Buy commodities
+  - Convert to other commodities
+  - Sell at higher price
+  - How?
+- Exploiting the worker
+  - *NOT* immoral
+
+
+
+
+** Labor
+
+- Necessary labor
+- Surplus labor
+
+
+
+** Necessary labor
+
+- C buys 1 day labor from W.
+- Labor has exchange value
+  - The labor required to keep W alive for 1 day
+  - Less than 1 day's labor
+- Necessary labor
+
+** Surplus labor
+
+
+- C gets 1 day's labor
+- Pays for less than 1 day's labor
+- Difference is surplus labor
+- Surplus labor = surplus value
+- Surplus value = profit
+
+** Wages
+
+- Increased profit = decreased wages
+- Wages fall to subsistence level, not below
+- Why?
+
+** Predicted consequences
+
+1. Automation = falling profit
+2. Falling profit \(\rightarrow\) failure of capitalism
+3. Labor intensive industries have higher rates of profit. (False)
+
+
+
+** Morality
+
+- Capitalism is good
+  - Generates wealth
+  - Need superabundance for communism
+  - Unsustainable
+- Final revolution \(\rightarrow\) communism
+  - "From each according to their ability, to each according to their need."
+
+
+
+** Objections to Macro-theory
+
+1. Failure of communist states
+   1. Weak objection: They didn't have the period of capitalist growth Marx thought necessary.
+2. No revolution in capitalist nations
+   1. Marx didn't foresee the extent of government economic intervention
+3. Must profit rates fall?
+   1. Empirical question
+4. Technology /could/ increase profit.
+
+
+
+
+** Problems
+
+- People use subjective comparisons
+- Information problem
+- Superabundance impossible
+
+
+** Marx's critique of markets
+
+- Markets are biased to the status quo
+- Injustice in, then injustice out
+- Failure of Marx's positive theory doesn't negate Marx's negative criticism.
+
+** Marx on freedom
+
+- Commitment to freedom
+- Freedom = power to quit
+
+
+** Neo-Marxism
+
+- Criticism of traditional property rights.
+- Concentration of economic power---increased rich/poor gap.
+- Influence of money in politics.
 
