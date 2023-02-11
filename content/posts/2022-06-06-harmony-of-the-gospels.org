@@ -1,6 +1,7 @@
 #+TITLE: Harmony of the Gospels
 #+tags[]: 
 #+date: 2023-01-21T10:46:11
+#+lastmod: 2023-02-11T17:53:15
 
 This is a schedule for a study of the Gospels in our Sunday School Class at NorthHaven Church.
 
@@ -38,7 +39,7 @@ This is a schedule for a study of the Gospels in our Sunday School Class at Nort
 | 1/22  | Jesus Speaks on the Use of Parables                                 | Mark 4:21-25, Luke 8:16-18                                      |
 | 1/22  | The Parable of the Mustard Seed and Tree                            | Matthew 13:31-32, Mark 4:30-32                                  |
 | 1/29  | Jesus' Custom of Speaking in Parables                               | Matthew 13:34-35, Mark 4:33-34                                  |
-| 2/15  | Jesus Calms the Storm                                               | Matthew 8:18-27, Mark 4:35-41, Luke 8:22-25                     |
+| 2/5   | Jesus Calms the Storm                                               | Matthew 8:18-27, Mark 4:35-41, Luke 8:22-25                     |
 | 2/12  | Healing the Gerasene Demoniacs                                      | Matthew 8:28-34, Mark 5:1-20, Luke 8:26-39                      |
 | 2/29  | The Raising of Jairus' Daughter, and Other Acts of Healing          | Matthew 9:18-34, Mark 5:21-43, Luke 8:40-56                     |
 | 2/26  | A Final Visit to Unbelieving Nazareth                               | Matthew 13:54-58, Mark 6:1-6                                    |
