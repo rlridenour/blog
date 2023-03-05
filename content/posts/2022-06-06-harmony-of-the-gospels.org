@@ -1,7 +1,7 @@
 #+TITLE: Harmony of the Gospels
 #+tags[]: 
 #+date: 2023-01-21T10:46:11
-#+lastmod: 2023-02-11T17:53:15
+#+lastmod: 2023-03-04T20:29:13
 
 This is a schedule for a study of the Gospels in our Sunday School Class at NorthHaven Church.
 
@@ -41,17 +41,17 @@ This is a schedule for a study of the Gospels in our Sunday School Class at Nort
 | 1/29  | Jesus' Custom of Speaking in Parables                               | Matthew 13:34-35, Mark 4:33-34                                  |
 | 2/5   | Jesus Calms the Storm                                               | Matthew 8:18-27, Mark 4:35-41, Luke 8:22-25                     |
 | 2/12  | Healing the Gerasene Demoniacs                                      | Matthew 8:28-34, Mark 5:1-20, Luke 8:26-39                      |
-| 2/29  | The Raising of Jairus' Daughter, and Other Acts of Healing          | Matthew 9:18-34, Mark 5:21-43, Luke 8:40-56                     |
-| 2/26  | A Final Visit to Unbelieving Nazareth                               | Matthew 13:54-58, Mark 6:1-6                                    |
+| 2/26  | The Raising of Jairus' Daughter, and Other Acts of Healing          | Matthew 9:18-34, Mark 5:21-43, Luke 8:40-56                     |
+| 3/5   | A Final Visit to Unbelieving Nazareth                               | Matthew 13:54-58, Mark 6:1-6                                    |
 |       | Shortage of Laborers                                                | Matthew 9:35-38, Mark 6:6                                       |
-|       | Jesus Sends Forth the Twelve for Ministry                           | Matthew 10:1-42, Mark 6:7-11, Luke 9:1-5                        |
-|       | The Departure of Jesus and the Disciples                            | Matthew 11:1, Mark 6:12-13, Luke 9:6                            |
-|       | The Death of John the Baptist                                       | Matthew 14:1-12, Mark 6:14-29, Luke 9:7-9                       |
-|       | Return of the Disciples                                             | Mark 6:30, Luke 9:10                                            |
-|       | Jesus Feeds Five Thousand                                           | Matthew 14:13-21, Mark 6:31-44, Luke 9:10-17, John 6:1-15       |
-|       | Jesus Walks on the Sea                                              | Matthew 14:22-33, Mark 6:45-52, John 6:16-21                    |
-|       | Healings at Gennesaret                                              | Matthew 14:34-36, Mark 6:53-56                                  |
-|       | Traditions and Commandments                                         | Matthew 15:1-20, Mark 7:1-23, John 7:1                          |
+| 3/12  | Jesus Sends Forth the Twelve for Ministry                           | Matthew 10:1-42, Mark 6:7-11, Luke 9:1-5                        |
+| 3/19  | The Departure of Jesus and the Disciples                            | Matthew 11:1, Mark 6:12-13, Luke 9:6                            |
+| 3/26  | The Death of John the Baptist                                       | Matthew 14:1-12, Mark 6:14-29, Luke 9:7-9                       |
+| 4/2   | Return of the Disciples                                             | Mark 6:30, Luke 9:10                                            |
+| 4/9   | Jesus Feeds Five Thousand                                           | Matthew 14:13-21, Mark 6:31-44, Luke 9:10-17, John 6:1-15       |
+| 4/16  | Jesus Walks on the Sea                                              | Matthew 14:22-33, Mark 6:45-52, John 6:16-21                    |
+| 4/23  | Healings at Gennesaret                                              | Matthew 14:34-36, Mark 6:53-56                                  |
+| 4/30  | Traditions and Commandments                                         | Matthew 15:1-20, Mark 7:1-23, John 7:1                          |
 |       | The Syrophoenician Woman's Faith                                    | Matthew 15:21-28, Mark 7:24-30                                  |
 |       | Jesus Returns to the Sea of Galilee                                 | Matthew 15:29-31, Mark 7:31-37                                  |
 |       | Jesus Feeds Four Thousand                                           | Matthew 15:32-39, Mark 8:1-10                                   |
