@@ -1,7 +1,7 @@
 #+TITLE: Harmony of the Gospels
 #+tags[]: 
 #+date: 2023-01-21T10:46:11
-#+lastmod: 2023-03-04T20:29:13
+#+lastmod: 2023-04-01T18:24:36
 
 This is a schedule for a study of the Gospels in our Sunday School Class at NorthHaven Church.
 
@@ -46,13 +46,13 @@ This is a schedule for a study of the Gospels in our Sunday School Class at Nort
 |       | Shortage of Laborers                                                | Matthew 9:35-38, Mark 6:6                                       |
 | 3/12  | Jesus Sends Forth the Twelve for Ministry                           | Matthew 10:1-42, Mark 6:7-11, Luke 9:1-5                        |
 | 3/19  | The Departure of Jesus and the Disciples                            | Matthew 11:1, Mark 6:12-13, Luke 9:6                            |
-| 3/26  | The Death of John the Baptist                                       | Matthew 14:1-12, Mark 6:14-29, Luke 9:7-9                       |
-| 4/2   | Return of the Disciples                                             | Mark 6:30, Luke 9:10                                            |
-| 4/9   | Jesus Feeds Five Thousand                                           | Matthew 14:13-21, Mark 6:31-44, Luke 9:10-17, John 6:1-15       |
-| 4/16  | Jesus Walks on the Sea                                              | Matthew 14:22-33, Mark 6:45-52, John 6:16-21                    |
-| 4/23  | Healings at Gennesaret                                              | Matthew 14:34-36, Mark 6:53-56                                  |
-| 4/30  | Traditions and Commandments                                         | Matthew 15:1-20, Mark 7:1-23, John 7:1                          |
-|       | The Syrophoenician Woman's Faith                                    | Matthew 15:21-28, Mark 7:24-30                                  |
+|       | The Death of John the Baptist                                       | Matthew 14:1-12, Mark 6:14-29, Luke 9:7-9                       |
+| 3/26  | Return of the Disciples                                             | Mark 6:30, Luke 9:10                                            |
+|       | Jesus Feeds Five Thousand                                           | Matthew 14:13-21, Mark 6:31-44, Luke 9:10-17, John 6:1-15       |
+| 4/2   | Jesus Walks on the Sea                                              | Matthew 14:22-33, Mark 6:45-52, John 6:16-21                    |
+| 4/9   | Healings at Gennesaret                                              | Matthew 14:34-36, Mark 6:53-56                                  |
+| 4/9   | Traditions and Commandments                                         | Matthew 15:1-20, Mark 7:1-23, John 7:1                          |
+| 4/16  | The Syrophoenician Woman's Faith                                    | Matthew 15:21-28, Mark 7:24-30                                  |
 |       | Jesus Returns to the Sea of Galilee                                 | Matthew 15:29-31, Mark 7:31-37                                  |
 |       | Jesus Feeds Four Thousand                                           | Matthew 15:32-39, Mark 8:1-10                                   |
 |       | Pharisees Demand a Sign from Jesus                                  | Matthew 16:1-12, Mark 8:11-21                                   |
