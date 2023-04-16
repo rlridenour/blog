@@ -1,0 +1,8 @@
+#+TITLE: Emacs From Scratch
+#+draft: false
+#+tags[]: emacs 
+#+date: 2023-04-16T18:49:14
+#+lastmod: 2023-04-16T18:49:24
+#+mathjax: 
+
+Trying out a new Emacs config from scratch. This is a test of all of my Hugo functions.
