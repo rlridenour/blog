@@ -1,7 +1,7 @@
 #+TITLE: Harmony of the Gospels
 #+tags[]: 
 #+date: 2023-01-21T10:46:11
-#+lastmod: 2023-05-31T17:57:57
+#+lastmod: 2023-06-18T07:11:48
 
 This is a schedule for a study of the Gospels in our Sunday School Class at NorthHaven Church.
 
@@ -64,8 +64,8 @@ This is a schedule for a study of the Gospels in our Sunday School Class at Nort
 | 5/28  | Who is Greatest in God's Kingdom?                                   | Matthew 18:1-5, Mark 9:33-37, Luke 9:46-48                      |
 | 6/4   | Warning Against Being a Stumbling Block                             | Matthew 18:6-14, Mark 9:38-50, Luke 9:49-50                     |
 | 6/11  | The Departure from Galilee                                          | Matthew 19:1-2, Mark 10:1, Luke 9:51-56, John 7:10              |
-|       | Jesus' Teaching on Divorce                                          | Matthew 19:3-12, Mark 10:2-12                                   |
-|       | Jesus Blesses the Little Children                                   | Matthew 19:13-15, Mark 10:13-16, Luke 18:15-17                  |
+| 6/11  | Jesus' Teaching on Divorce                                          | Matthew 19:3-12, Mark 10:2-12                                   |
+| 6/18  | Jesus Blesses the Little Children                                   | Matthew 19:13-15, Mark 10:13-16, Luke 18:15-17                  |
 |       | The Rich Young Man                                                  | Matthew 19:16-30, Mark 10:17-31, Luke 18:18-30                  |
 |       | Jesus Predicts His Death Again                                      | Matthew 20:17-19, Mark 10:32-34, Luke 18:31-34                  |
 |       | Warning Against Ambitious Pride                                     | Matthew 20:20-28, Mark 10:35-45                                 |
