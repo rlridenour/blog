@@ -1,7 +1,7 @@
 #+TITLE: Harmony of the Gospels
 #+tags[]: religion
 #+date: 2023-01-21T10:46:11
-#+lastmod: 2023-06-24T17:53:56
+#+lastmod: 2023-07-26T13:26:23
 #+weight: 1
 
 This is a schedule for a study of the Gospels in our Sunday School Class at NorthHaven Church.
@@ -69,11 +69,11 @@ This is a schedule for a study of the Gospels in our Sunday School Class at Nort
 | 6/18  | Jesus Blesses the Little Children                                   | Matthew 19:13-15, Mark 10:13-16, Luke 18:15-17                  |
 | 6/25  | The Rich Young Man                                                  | Matthew 19:16-30, Mark 10:17-31, Luke 18:18-30                  |
 | 7/2   | Jesus Predicts His Death Again                                      | Matthew 20:17-19, Mark 10:32-34, Luke 18:31-34                  |
-|       | Warning Against Ambitious Pride                                     | Matthew 20:20-28, Mark 10:35-45                                 |
-|       | Blind Bartimaeus and Companion Healed                               | Matthew 20:29-34, Mark 10:46-52, Luke 18:35-43                  |
-|       | Mary's Anointing of Jesus for Burial                                | Matthew 26:6-13, Mark 14:3-9, John 12:2-8                       |
-|       | The Triumphal Entry                                                 | Matthew 21:1-11, Mark 11:1-11, Luke 19:29-44, John 12:12-19     |
-|       | The Cursing of the Fig Tree                                         | Matthew 21:18-19, Mark 11:12-14                                 |
+| 7/9   | Warning Against Ambitious Pride                                     | Matthew 20:20-28, Mark 10:35-45                                 |
+| 7/16  | Blind Bartimaeus and Companion Healed                               | Matthew 20:29-34, Mark 10:46-52, Luke 18:35-43                  |
+| 7/23  | Mary's Anointing of Jesus for Burial                                | Matthew 26:6-13, Mark 14:3-9, John 12:2-8                       |
+| 7/30  | The Triumphal Entry                                                 | Matthew 21:1-11, Mark 11:1-11, Luke 19:29-44, John 12:12-19     |
+| 8/6   | The Cursing of the Fig Tree                                         | Matthew 21:18-19, Mark 11:12-14                                 |
 |       | Second Cleansing of the Temple                                      | Matthew 21:12-17, Mark 11:15-19, Luke 19:45-48                  |
 |       | The Lesson of the Withered Fig Tree                                 | Matthew 21:18-22, Mark 11:20-25                                 |
 |       | Jesus' Authority Challenged                                         | Matthew 21:23-27, Mark 11:27-33, Luke 20:1-8                    |
