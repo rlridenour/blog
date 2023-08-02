@@ -82,7 +82,7 @@ url = "/tags/"
 [markup.highlight]
 noClasses = false
 lineNos = true
-stye = 'modus operandi'
+style = 'modus-operandi'
 [markup.goldmark]
 [markup.goldmark.parser]
 autoHeadingID = true
@@ -94,4 +94,5 @@ title = true
 unsafe = true
 
 [outputs]
+
 home = ["HTML", "RSS", "JSON"]

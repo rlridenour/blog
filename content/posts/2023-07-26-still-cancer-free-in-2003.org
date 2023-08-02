@@ -2,7 +2,7 @@
 #+draft: false
 #+tags[]: 
 #+date: 2023-07-26T10:50:53
-#+lastmod: 2023-08-02T10:51:06
+#+lastmod: 2023-08-02T10:56:27
 #+mathjax: 
 
 Yesterday, I had my semi-annual exam with my oncologist. All the tests came back negative, and I feel better than I have in years.
