@@ -2,7 +2,7 @@
 #+draft: false
 #+tags[]: 
 #+date: 2023-08-02T10:34:41
-#+lastmod: 2023-08-02T10:34:49
+#+lastmod: 2023-08-02T10:39:51
 #+mathjax: 
 
 Having some time this summer, I decided to try to convert my very disorganized Emacs config files into one Org-mode file. I have had a literate config in the past, and it went much more easily than I remember. If you're thinking about creating one, here is what I recommend.
@@ -20,7 +20,7 @@ Anything in this section becomes part of ~early-init.el~. All of the other top-l
 
 I recommend beginning by adding just enough to set up package management and installing [[https://github.com/yilkalargaw/org-auto-tangle][Org Auto Tangle]]. If you use ~straight.el~, then your Org file should look something like this:
 
-#+begin_example
+#+begin_example org
 #+title: Emacs Configuration
 #+auto_tangle: t
 
