@@ -2,7 +2,7 @@
 #+draft: false
 #+tags[]: 
 #+date: 2023-08-02T10:34:41
-#+lastmod: 2023-08-02T10:39:51
+#+lastmod: 2023-08-02T10:54:25
 #+mathjax: 
 
 Having some time this summer, I decided to try to convert my very disorganized Emacs config files into one Org-mode file. I have had a literate config in the past, and it went much more easily than I remember. If you're thinking about creating one, here is what I recommend.
@@ -18,61 +18,6 @@ First, use the same org file to generate both ~early-init.el~ and ~init.el~. The
 
 Anything in this section becomes part of ~early-init.el~. All of the other top-level sections specify to tangle to ~init.el~. Both files are created when the Org file is tangled. Lower-level sections inherit their properties from the top-levels. So, only the top-level sections need the properties specified.
 
-I recommend beginning by adding just enough to set up package management and installing [[https://github.com/yilkalargaw/org-auto-tangle][Org Auto Tangle]]. If you use ~straight.el~, then your Org file should look something like this:
-
-#+begin_example org
-#+title: Emacs Configuration
-#+auto_tangle: t
-
-* Early init file
-:PROPERTIES:
-:header-args: :tangle early-init.el
-:END:
-
-#+begin_src emacs-lisp
-  (setq package-enable-at-startup nil)
-#+end_src
-
-* Package Management
-:PROPERTIES:
-:header-args: :tangle init.el
-:END:
-
-** Straight
-
-Boostrap ~straight.el~.
-
-#+begin_src emacs-lisp
-  (defvar bootstrap-version)
-  (let ((bootstrap-file
-	 (expand-file-name "straight/repos/straight.el/bootstrap.el" user-emacs-directory))
-	(bootstrap-version 6))
-    (unless (file-exists-p bootstrap-file)
-      (with-current-buffer
-	  (url-retrieve-synchronously
-	   "https://raw.githubusercontent.com/radian-software/straight.el/develop/install.el"
-	   'silent 'inhibit-cookies)
-	(goto-char (point-max))
-	(eval-print-last-sexp)))
-    (load bootstrap-file nil 'nomessage))
-#+end_src
-
-Replace use-package with straight-use-package
-
-#+begin_src emacs-lisp
-  (straight-use-package 'use-package)
-  (setq straight-use-package-by-default t)
-#+end_src
-
-Use ~org-auto-tangle~ to generate ~early-init.el~ and ~init.el~ whenever ~README.org~ is saved.
-
-#+begin_src emacs-lisp
-  (use-package org-auto-tangle
-    :hook (org-mode . org-auto-tangle-mode))
-#+end_src
-
-#+end_example
-
-Then, use ~C-c C-v t~ to tangle the file and generate both ~early-init.el~ and ~init.el~. After that, Org Auto Tangle will automatically tangle the file every time that the Org file is saved.
+I recommend beginning by adding just enough to set up package management and installing [[https://github.com/yilkalargaw/org-auto-tangle][Org Auto Tangle]], and then use ~C-c C-v t~ to tangle the file and generate both ~early-init.el~ and ~init.el~. After that, Org Auto Tangle will automatically tangle the file every time that the Org file is saved.
 
 My [[https://github.com/rlridenour/config-files/blob/master/emacs/README.org][Emacs Config]] is on Github. View the raw file to see all of the properties and src blocks.
