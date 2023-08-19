@@ -33,3 +33,17 @@ ol.bibliography li {
 /*   font-size: inherit; */
 /*   vertical-align: inherit; */
 /* } */
+
+.highlight > .chroma {
+    margin: 0 0 2rem;
+    
+    border-radius: 5px;
+    overflow-x: auto;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    position: relative;
+    background: $code-background;
+
+    code {
+      padding: 40px 10px 10px;
+    }
+

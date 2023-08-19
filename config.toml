@@ -80,9 +80,9 @@ url = "/tags/"
 
 [markup]
 [markup.highlight]
-noClasses = false
+noClasses = true
 lineNos = true
-style = 'modus-operandi'
+style = "bw"
 [markup.goldmark]
 [markup.goldmark.parser]
 autoHeadingID = true
