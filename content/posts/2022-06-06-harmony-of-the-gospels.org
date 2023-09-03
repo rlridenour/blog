@@ -1,7 +1,7 @@
 #+TITLE: Harmony of the Gospels
 #+tags[]: religion
 #+date: 2023-01-21T10:46:11
-#+lastmod: 2023-08-19T13:38:04
+#+lastmod: 2023-09-02T20:06:19
 #+weight: 1
 
 This is a schedule for a study of the Gospels in our Sunday School Class at NorthHaven Church.
@@ -78,11 +78,11 @@ This is a schedule for a study of the Gospels in our Sunday School Class at Nort
 | 8/13  | The Lesson of the Withered Fig Tree                                 | Matthew 21:18-22, Mark 11:20-25                                 |
 | 8/20  | Jesus' Authority Challenged                                         | Matthew 21:23-27, Mark 11:27-33, Luke 20:1-8                    |
 | 8/27  | Parable of the Tenants                                              | Matthew 21:33-46, Mark 12:1-12, Luke 20:9-19                    |
-| 9/3   | Paying Taxes to Caesar                                              | Matthew 22:15-22, Mark 12:13-17, Luke 20:20-26                  |
-| 9/10  | Marriage and the Resurrection                                       | Matthew 22:23-33, Mark 12:18-27, Luke 20:27-38                  |
-| 9/17  | The Greatest Commandment                                            | Matthew 22:34-40, Mark 12:28-34, Luke 20:39-40                  |
-| 9/24  | Question About the Son of David                                     | Matthew 22:41-46, Mark 12:35-37, Luke 20:41-44                  |
-|       | Listen to the Pharisees, but Don't Follow Their Deeds               | Matthew 23:1-12, Mark 12:38-40, Luke 20:45-47                   |
+| 8/27  | Paying Taxes to Caesar                                              | Matthew 22:15-22, Mark 12:13-17, Luke 20:20-26                  |
+| 9/3   | Marriage and the Resurrection                                       | Matthew 22:23-33, Mark 12:18-27, Luke 20:27-38                  |
+| 9/10  | The Greatest Commandment                                            | Matthew 22:34-40, Mark 12:28-34, Luke 20:39-40                  |
+| 9/17  | Question About the Son of David                                     | Matthew 22:41-46, Mark 12:35-37, Luke 20:41-44                  |
+| 9/24  | Listen to the Pharisees, but Don't Follow Their Deeds               | Matthew 23:1-12, Mark 12:38-40, Luke 20:45-47                   |
 |       | The Poor Widow's Offering                                           | Mark 12:41-44, Luke 21:1-4                                      |
 |       | Destruction of the Temple Foretold by Jesus                         | Matthew 24:1-2, Mark 13:1-2, Luke 21:5-6                        |
 |       | Signs of the End of the Age                                         | Matthew 24:3-14, Mark 13:3-13, Luke 21:7-19                     |
