@@ -1,7 +1,7 @@
 #+TITLE: Harmony of the Gospels
 #+tags[]: religion
 #+date: 2023-01-21T10:46:11
-#+lastmod: 2023-09-30T19:00:22
+#+lastmod: 2023-11-05T07:32:17
 #+weight: 1
 
 This is a schedule for a study of the Gospels in our Sunday School Class at NorthHaven Church.
@@ -85,14 +85,14 @@ This is a schedule for a study of the Gospels in our Sunday School Class at Nort
 | 9/24  | Listen to the Pharisees, but Don't Follow Their Deeds               | Matthew 23:1-12, Mark 12:38-40, Luke 20:45-47                   |
 | 10/1  | The Poor Widow's Offering                                           | Mark 12:41-44, Luke 21:1-4                                      |
 | 10/8  | Destruction of the Temple Foretold by Jesus                         | Matthew 24:1-2, Mark 13:1-2, Luke 21:5-6                        |
-|       | Signs of the End of the Age                                         | Matthew 24:3-14, Mark 13:3-13, Luke 21:7-19                     |
-|       | The Abomination of Desolation                                       | Matthew 24:15-28, Mark 13:14-23, Luke 21:20-24                  |
-|       | The Coming of the Son of Man                                        | Matthew 24:29-31, Mark 13:24-27, Luke 21:25-28                  |
-|       | The Unknown Day and Hour                                            | Matthew 24:32-44, Mark 13:28-37, Luke 21:29-33                  |
-|       | The Faithful or the Unfaithful Slave                                | Matthew 24:45-51, Luke 21:34-36                                 |
-|       | The Chief Priests Plot to Kill Jesus                                | Matthew 26:1-5, Mark 14:1-2, Luke 22:1-2                        |
-|       | Judas Bargains to Betray Jesus                                      | Matthew 26:14-16, Mark 14:10-11, Luke 22:3-6                    |
-|       | Passover Meal Preparation                                           | Matthew 26:17-19, Mark 14:12-16, Luke 22:7-13                   |
+| 10/15 | Signs of the End of the Age                                         | Matthew 24:3-14, Mark 13:3-13, Luke 21:7-19                     |
+| 10/22 | The Abomination of Desolation                                       | Matthew 24:15-28, Mark 13:14-23, Luke 21:20-24                  |
+| 10/29 | The Coming of the Son of Man                                        | Matthew 24:29-31, Mark 13:24-27, Luke 21:25-28                  |
+| 11/5  | The Unknown Day and Hour                                            | Matthew 24:32-44, Mark 13:28-37, Luke 21:29-33                  |
+| 11/5  | The Faithful or the Unfaithful Slave                                | Matthew 24:45-51, Luke 21:34-36                                 |
+| 11/12 | The Chief Priests Plot to Kill Jesus                                | Matthew 26:1-5, Mark 14:1-2, Luke 22:1-2                        |
+| 11/19 | Judas Bargains to Betray Jesus                                      | Matthew 26:14-16, Mark 14:10-11, Luke 22:3-6                    |
+| 11/26 | Passover Meal Preparation                                           | Matthew 26:17-19, Mark 14:12-16, Luke 22:7-13                   |
 |       | Beginning of the Passover Meal                                      | Matthew 26:20, Mark 14:17, Luke 22:14-16                        |
 |       | Jesus' Betrayer Identified                                          | Matthew 26:21-25, Mark 14:18-21, Luke 22:21-23, John 13:21-30   |
 |       | Jesus Predicts Peter's Denial                                       | Luke 22:31-38, John 13:31-38                                    |
