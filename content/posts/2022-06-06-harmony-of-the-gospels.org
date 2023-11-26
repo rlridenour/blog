@@ -1,7 +1,7 @@
 #+TITLE: Harmony of the Gospels
 #+tags[]: religion
 #+date: 2023-01-21T10:46:11
-#+lastmod: 2023-11-05T07:32:17
+#+lastmod: 2023-11-26T06:12:24
 #+weight: 1
 
 This is a schedule for a study of the Gospels in our Sunday School Class at NorthHaven Church.
@@ -93,10 +93,10 @@ This is a schedule for a study of the Gospels in our Sunday School Class at Nort
 | 11/12 | The Chief Priests Plot to Kill Jesus                                | Matthew 26:1-5, Mark 14:1-2, Luke 22:1-2                        |
 | 11/19 | Judas Bargains to Betray Jesus                                      | Matthew 26:14-16, Mark 14:10-11, Luke 22:3-6                    |
 | 11/26 | Passover Meal Preparation                                           | Matthew 26:17-19, Mark 14:12-16, Luke 22:7-13                   |
-|       | Beginning of the Passover Meal                                      | Matthew 26:20, Mark 14:17, Luke 22:14-16                        |
-|       | Jesus' Betrayer Identified                                          | Matthew 26:21-25, Mark 14:18-21, Luke 22:21-23, John 13:21-30   |
-|       | Jesus Predicts Peter's Denial                                       | Luke 22:31-38, John 13:31-38                                    |
-|       | Lord's Supper Instituted                                            | Matthew 26:26-29, Mark 14:22-25, Luke 22:17-20                  |
+| 11/26 | Beginning of the Passover Meal                                      | Matthew 26:20, Mark 14:17, Luke 22:14-16                        |
+| 11/26 | Jesus' Betrayer Identified                                          | Matthew 26:21-25, Mark 14:18-21, Luke 22:21-23, John 13:21-30   |
+| 12/3  | Jesus Predicts Peter's Denial                                       | Luke 22:31-38, John 13:31-38                                    |
+| 12/10 | Lord's Supper Instituted                                            | Matthew 26:26-29, Mark 14:22-25, Luke 22:17-20                  |
 |       | Second Prediction of Peter's Denial                                 | Matthew 26:30-35, Mark 14:26-31                                 |
 |       | Jesus' Prayer in Gethsemane                                         | Matthew 26:36-46, Mark 14:32-42, Luke 22:39-46                  |
 |       | The Betrayal and Arrest                                             | Matthew 26:47-56, Mark 14:43-52, Luke 22:47-53, John 18:1-12    |
