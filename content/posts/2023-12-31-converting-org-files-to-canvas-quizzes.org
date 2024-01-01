@@ -1,8 +1,8 @@
 #+TITLE: Converting Org Files to Canvas Quizzes
-#+draft: true
+#+draft: false
 #+tags[]: org education canvas
-#+date: 2023-12-31T14:01:43
-#+lastmod: 2024-01-01T10:37:52
+#+date: 2024-01-01T10:38:06
+#+lastmod: 2024-01-01T10:38:14
 #+mathjax: 
 
 Oklahoma Baptist University, like many others, uses [[https://www.instructure.com][Canvas]] for a Learning Management System. There are many things I like about Canvas, but creating quizzes is not one of them. It is very difficult to do without constantly using the mouse, something that I find irritating and inefficient.
