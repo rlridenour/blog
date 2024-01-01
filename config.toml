@@ -82,7 +82,7 @@ url = "/tags/"
 [markup.highlight]
 noClasses = true
 lineNos = true
-style = "bw"
+# style = "bw"
 [markup.goldmark]
 [markup.goldmark.parser]
 autoHeadingID = true
