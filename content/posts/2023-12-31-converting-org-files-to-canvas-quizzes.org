@@ -2,7 +2,7 @@
 #+draft: false
 #+tags[]: org education canvas
 #+date: 2024-01-01T10:38:06
-#+lastmod: 2024-01-01T10:40:24
+#+lastmod: 2024-01-01T13:32:23
 #+mathjax: 
 
 Oklahoma Baptist University, like many others, uses [[https://www.instructure.com][Canvas]] for a Learning Management System. There are many things I like about Canvas, but creating quizzes is not one of them. It is very difficult to do without constantly using the mouse, something that I find irritating and inefficient.
@@ -41,7 +41,7 @@ d) Wrong
 
 Now, this would be very simple to just type from scratch. Note that it is just a list with different styles of bullets for different kinds of questions, and Org mode is a very good tool for quickly creating lists. Org mode offers different options for the list indicators, and for each list type that converter requires, there is something very close to it in Org mode. To cycle through all of the options, put the point on a list item and enter ~C-c <right>~. So, here's the Org text that I decided to use:
 
-#+begin_src org
+#+begin_src
 1. Multiple choice question (single correct answer)
    a) Wrong
    b) Wrong
