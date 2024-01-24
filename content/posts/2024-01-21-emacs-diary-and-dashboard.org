@@ -2,16 +2,16 @@
 #+draft: false
 #+tags[]: 
 #+date: 2024-01-24T07:41:44
-#+lastmod: 2024-01-24T08:23:25
+#+lastmod: 2024-01-24T08:35:07
 #+mathjax: 
 
-When I'm not in class, most of my time is spent at my desk, with stacks of books, writing in Emacs. I also have a tendency to lose track of time when I'm focused on a problem. So, it would be nice to have something in Emacs to remind of the start times of meetings and classes. That sent me down a two-day rabbit hole exploring the Emacs diary and getting deeper into Org mode.
+When I'm not in class, most of my time is spent at my desk, with stacks of books, writing in Emacs. I also have a tendency to lose track of time when I'm focused on a problem. So, it would be nice to have something in Emacs to remind me of the start times of meetings and classes. That sent me down a two-day rabbit hole exploring the Emacs diary and getting deeper into Org mode.
 
 I won't bother detailing all of the options that I tried, but here are the highlights:
 
-1. I tried putting all of my appointments in Org mode. That seemed the natural thing to do, since I was already using for task management. Unfortunately, I couldn't figure out how to do simple things like creating recurring appointments that ended by a certain date, much less complex ones like a class that meets every Tuesday and Thursday except for Spring Break, conference breaks, etc.
-2. I then explored using the diary. The [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Format-of-Diary-File.html][diary file]] has an extremely simple format; simple appointments are made just by listing the date, time and appointment title on a line. Complex appointments are made by using special [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Special-Diary-Entries.html][sexp entries]], which allowed me to create the appointments for my courses. It is also very easy to have display these appointments in org-agenda, which very conveniently marks the current time with a line across the agenda, providing a nice visual representation of the relative time before my next appointment. I didn't quite like how the appointments were displayed in emphasized text, but everything else worked great. A reminder pops up in the minibuffer several minutes before the appointment. The pop-up reminder soon disappears, but the modeline lists the number of minutes until the appointment.
-3. Finally, as I researched how to form complex sexp appointments, I saw that Org mode is able to use the sexp format. So, after creating the diary file, it was back to Org mode. Here is what I used in the end.
+1. I first tried putting all of my appointments in Org mode. That seemed the natural thing to do, since I was already using it for task management. Unfortunately, I couldn't figure out how to do simple things like creating recurring appointments that ended by a certain date, much less complex ones like a class that meets every Tuesday and Thursday except for Spring Break, conference breaks, etc.
+2. I then explored using the diary. The [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Format-of-Diary-File.html][diary file]] has an extremely simple format; simple appointments are made just by listing the date, time, and appointment title on a line. Complex appointments are made by using special [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Special-Diary-Entries.html][sexp entries]], which allowed me to create the appointments for my courses. It is also very easy to display these appointments in org-agenda, which very conveniently marks the current time with a line across the agenda, providing a nice visual representation of the relative time before my next appointment. I didn't quite like how the appointments were displayed in emphasized text, but everything else worked great. A reminder pops up in the minibuffer several minutes before the appointment. The pop-up reminder soon disappears, but the modeline continues to list, and update, the number of minutes until the appointment.
+3. Finally, as I researched how to form complex sexp appointments, I saw that Org mode is able to use the sexp appointment format. So, it was back to Org mode. Here is what I used in the end.
 
 ** Init Settings
 
@@ -114,3 +114,14 @@ The recurring section is for any recurring appointment that is not a class. Note
 #+end_src
 
 I used the slightly more complicated formula bcause We often cancel rehearsal for a month in the summer, so it's easy to add an exception block to the sexp.
+
+Finally, I added an org-capture template for easily creating simple appointments:
+
+#+begin_src emacs-lisp
+("e" "Event" entry (file+headline "path to events.org" "Future")
+	   "** %? %T")
+#+end_src
+
+This creates the appointment entry with a timestamp and puts the mark where the appointment name will go.
+
+There are many examples that can be found online, but few were of the type that I needed to see. I hope this helps someone else.
