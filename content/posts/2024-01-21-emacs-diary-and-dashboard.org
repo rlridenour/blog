@@ -2,7 +2,7 @@
 #+draft: false
 #+tags[]: 
 #+date: 2024-01-24T07:41:44
-#+lastmod: 2024-01-24T08:35:57
+#+lastmod: 2024-01-24T08:48:31
 #+mathjax: 
 
 When I'm not in class, most of my time is spent at my desk, with stacks of books, writing in Emacs. I also have a tendency to lose track of time when I'm focused on a problem. So, it would be nice to have something in Emacs to remind me of the start times of meetings and classes. That sent me down a two-day rabbit hole exploring the Emacs diary and getting deeper into Org mode.
@@ -89,7 +89,7 @@ I have two separate agenda files, one for tasks and another for events. Here's h
 
 * Recurring
 
-** Choir Rehearsal 19:00
+** Edward 15:00
 <%%(memq (calendar-day-of-week date) '(3))>
 
 
@@ -110,10 +110,10 @@ The second example is one of my classes this semester. At first, I struggled wit
 The recurring section is for any recurring appointment that is not a class. Note that this could have been done with something like this, if the appointment never changes:
 
 #+begin_src org
-** Choir Rehearsal <2024-01-24 Wed 19:00 +1w>
+** Edward <2024-01-24 Wed 15:00 +1w>
 #+end_src
 
-I used the slightly more complicated formula bcause We often cancel rehearsal for a month in the summer, so it's easy to add an exception block to the sexp.
+I used the slightly more complicated formula because we will probably not meet in the summer, so it will be easy to add an exception block to the sexp.
 
 Finally, I added an org-capture template for easily creating simple appointments:
 
