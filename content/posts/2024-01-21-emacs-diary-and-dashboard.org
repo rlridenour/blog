@@ -2,7 +2,7 @@
 #+draft: false
 #+tags[]: 
 #+date: 2024-01-24T07:41:44
-#+lastmod: 2024-01-24T08:35:07
+#+lastmod: 2024-01-24T08:35:57
 #+mathjax: 
 
 When I'm not in class, most of my time is spent at my desk, with stacks of books, writing in Emacs. I also have a tendency to lose track of time when I'm focused on a problem. So, it would be nice to have something in Emacs to remind me of the start times of meetings and classes. That sent me down a two-day rabbit hole exploring the Emacs diary and getting deeper into Org mode.
@@ -17,7 +17,7 @@ I won't bother detailing all of the options that I tried, but here are the highl
 
 I created an agenda display for just the current day:
 
-#+begin_src emacs-lisp
+#+begin_src lisp
 (setq org-agenda-custom-commands
     '(("d" "Agenda for today" agenda ""
 	((org-agenda-overriding-header "Today's agenda")
@@ -27,20 +27,20 @@ I created an agenda display for just the current day:
 
 Next is to clear the existing appointment list when Emacs starts:
 
-#+begin_src emacs-lisp
+#+begin_src lisp
 (setq appt-time-msg-list nil)
 #+end_src
 
 Then generate the appointment list from the Org agenda files and update it hourly:
 
-#+begin_src emacs-lisp
+#+begin_src lisp
 (org-agenda-to-appt)
 (run-at-time "24:01" 3600 'org-agenda-to-appt)
 #+end_src
 
 Finally, update the appointment list every time that an agenda is viewed:
 
-#+begin_src emacs-lisp
+#+begin_src lisp
 (add-hook 'org-finalize-agenda-hook 'org-agenda-to-appt)
 #+end_src
 
@@ -48,7 +48,7 @@ An alert is issued 12 minutes before every appointment. This can be changed with
 
 I use the [[https://github.com/emacs-dashboard/emacs-dashboard][Emacs Dashboard]] package. To display appointments, I found this function from [[https://github.com/KaratasFurkan][Furkan Karataş]] to insert the agenda view for the day:
 
-#+begin_src emacs-lisp
+#+begin_src lisp
 (defun dashboard-insert-agenda (&rest _)
   "Insert a copy of org-agenda buffer."
   (insert (save-window-excursion
@@ -59,7 +59,7 @@ I use the [[https://github.com/emacs-dashboard/emacs-dashboard][Emacs Dashboard]
 
 I don't need to see the time grid, just the current time and the appointment times:
 
-#+begin_src emacs-lisp
+#+begin_src lisp
 (setq org-agenda-time-grid
   '((daily today require-timed remove-match)
     ()
@@ -117,7 +117,7 @@ I used the slightly more complicated formula bcause We often cancel rehearsal fo
 
 Finally, I added an org-capture template for easily creating simple appointments:
 
-#+begin_src emacs-lisp
+#+begin_src lisp
 ("e" "Event" entry (file+headline "path to events.org" "Future")
 	   "** %? %T")
 #+end_src
