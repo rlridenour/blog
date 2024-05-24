@@ -1,8 +1,8 @@
 #+TITLE: Harmony of the Gospels
 #+tags[]: religion
 #+date: 2023-01-21T10:46:11
-#+lastmod: 2023-12-31T07:19:59
-#+weight: 1
+#+lastmod: 2024-05-24T05:56:49
+
 
 This is a schedule for a study of the Gospels in our Sunday School Class at NorthHaven Church.
 
