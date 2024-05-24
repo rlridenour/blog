@@ -1,8 +1,8 @@
 #+TITLE: Converting Org Files to Canvas Quizzes
 #+draft: false
 #+tags[]: org education canvas
-#+date: 2024-01-01T10:38:06
-#+lastmod: 2024-01-01T13:32:23
+#+date: 2024-05-24T05:55:01
+#+lastmod: 2024-05-24T05:55:06
 #+mathjax: 
 
 Oklahoma Baptist University, like many others, uses [[https://www.instructure.com][Canvas]] for a Learning Management System. There are many things I like about Canvas, but creating quizzes is not one of them. It is very difficult to do without constantly using the mouse, something that I find irritating and inefficient.
@@ -90,11 +90,12 @@ I'm sure that the third and fourth steps can be combined. For various reasons th
 	(beginning-of-buffer)
 	(while (re-search-forward "-" nil t)
 	  (replace-match ""))
-	;; Change correct multiple answer options to asterisks"
+	;; Change correct multiple answer options to "*"
 	(beginning-of-buffer)
-	(while (re-search-forward "x" nil t)
-	  (replace-match "*"))
-	;; Mark short answer responses with asterisks
+(let ((case-fold-search nil))
+	(while (re-search-forward "\[X\]" nil t)
+	  (replace-match "*")))
+	;; Mark short answer responses with "**"
 	(beginning-of-buffer)
 	(while (re-search-forward "+" nil t)
 	  (replace-match "*"))
@@ -102,7 +103,6 @@ I'm sure that the third and fourth steps can be combined. For various reasons th
 	(beginning-of-buffer)
 	(while (re-search-forward "^\s-*" nil t)
 	  (replace-match ""))
-	;; Add a blank line between questions
 	(beginning-of-buffer)
 	(while (re-search-forward "\\([0-9]\\)" nil t)
 	  (replace-match "\n\\1"))
