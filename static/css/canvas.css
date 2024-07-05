@@ -1,19 +1,26 @@
 .arg li:last-child {
-  list-style: none;
+    list-style: none;
 }
 
 .arg li:nth-last-child(2) {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 .arg li {
-margin: 0px;
+    margin: 0px;
 }
 
 .footnote-definition {
-  display: block;
+    display: block;
 }
 
 .footnote-body {
-  display: inline-block;
+    display: inline-block;
+}
+
+.outline-3 {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 5px;
 }
