@@ -3,5 +3,5 @@
 #+layout: page
 #+mathjax: false
 
-- Study showing amygdala response to evidence against person's deeply held belief.
-- Case of airline pilot who took off early causing plane crash. The pilot was the person responsible for safety training at the airline. I think the crash happened somewhere in the Caribbean. 
+1. Study showing amygdala response to evidence against person's deeply held belief.
+2. Case of airline pilot who took off early causing plane crash. The pilot was the person responsible for safety training at the airline. I think the crash happened somewhere in the Caribbean. 
